@@ -52,11 +52,10 @@ const WorkExperienceItem: React.FC<WorkExperienceItemProps> = ({ experience }) =
       </div>
 
       {/* Supervisor */}
-      <div className='flex flex-row items-center gap-2 mt-3 text-base text-muted-foreground'>
+      {/* <div className='flex flex-row items-center gap-2 mt-3 text-base text-muted-foreground'>
         <div className='flex flex-col sm:flex-row gap-0 sm:gap-2 items-start'>
           <div className='flex flex-row items-center gap-2 mb-2'>
             <div className='hidden sm:block w-7 h-0.5 bg-muted-foreground rounded-full'></div>
-            <div className='font-semibold text-xl sm:text-base'>Supervisor:</div>
           </div>
           <div className='flex flex-col gap-1'>
             <div>{experience.supervisor.fullName}</div>
@@ -64,7 +63,7 @@ const WorkExperienceItem: React.FC<WorkExperienceItemProps> = ({ experience }) =
             <div>{experience.supervisor.email}</div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

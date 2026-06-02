@@ -9,7 +9,7 @@ import NextjsLogo from '@/components/logo/nextjs-logo'
 import NestjsLogo from '@/components/logo/nestjs-logo'
 import { ComponentType } from 'react'
 
-export const CV_URL = '/cv/CV-SoftwareEngineer-TruongThucVan.pdf'
+export const CV_URL = '/cv/My Resume.pdf'
 
 export type SocialLink = {
   href: string
@@ -22,11 +22,6 @@ export const SOCIAL_LINKS: SocialLink[] = [
     href: 'https://www.linkedin.com/in/truongthucvan/',
     icon: LinkedinLogo,
     label: 'LinkedIn'
-  },
-  {
-    href: 'https://github.com/MeiCloudie',
-    icon: GitHubLogo,
-    label: 'GitHub'
   },
   {
     href: 'https://www.facebook.com/ttvan1242/',
@@ -96,118 +91,180 @@ export const GRADIENT_COLORS = ['#FFA001', '#FE8FB5', '#FC4100']
 
 export const SKILLS: SkillCategory[] = [
   {
+    title: 'CMS & ECommerce',
+    skills: [
+      { name: 'Shopify', level: 'Experienced' },
+      { name: 'Shopify Plus', level: 'Experienced' },
+      { name: 'Shopify App', level: 'Intermediate' },
+      { name: 'Theme Development & Customization', level: 'Intermediate' },
+      { name: 'WooCommerce', level: 'Basic' },
+      { name: 'Contentful', level: 'Experienced' },
+      { name: 'Headless CMS Architecture', level: 'Basic' },
+      { name: 'CRO', level: 'Intermediate' },
+      { name: 'Performance Optimization', level: 'Intermediate' },
+      { name: 'Core Web Vitals', level: 'Intermediate' },
+      { name: 'Adobe Commerce Cloud', level: 'Intermediate' },
+      { name: 'WordPress', level: 'Intermediate' },
+      { name: 'Shopify Hydrogen', level: 'Intermediate' },
+      { name: 'BigCommerce', level: 'Intermediate' },
+      { name: 'EC-Cube', level: 'Intermediate' },
+      { name: 'Magento', level: 'Intermediate' },
+      { name: 'Wagtail', level: 'Intermediate' },
+      { name: 'Sitecore', level: 'Intermediate' },
+      { name: 'Shogun', level: 'Intermediate' },
+      { name: 'PageFly', level: 'Intermediate' },
+      { name: 'Replo', level: 'Intermediate' }
+    ]
+  },
+  {
     title: 'Front End',
     skills: [
-      { name: 'HTML', level: 'Experienced' },
-      { name: 'CSS', level: 'Experienced' },
-      { name: 'SASS', level: 'Intermediate' },
+      { name: 'React.js', level: 'Experienced' },
+      { name: 'Next.js', level: 'Experienced' },
+      { name: 'Vue.js', level: 'Intermediate' },
+      { name: 'HTML5', level: 'Intermediate' },
+      { name: 'SCSS', level: 'Intermediate' },
+      { name: 'Tailwind CSS', level: 'Intermediate' },
       { name: 'JavaScript', level: 'Intermediate' },
-      { name: 'TypeScript', level: 'Intermediate' },
-      { name: 'React', level: 'Intermediate' },
-      { name: 'Next.js', level: 'Intermediate' },
-      { name: 'Angular', level: 'Basic' },
-      { name: 'React Native', level: 'Basic' },
-      { name: 'Flutter', level: 'Basic' },
-      { name: 'Bootstrap', level: 'Experienced' },
-      { name: 'Tailwind CSS', level: 'Experienced' },
-      { name: 'ShadcnUI', level: 'Experienced' },
-      { name: 'MUI', level: 'Intermediate' },
-      { name: 'Ant Design', level: 'Intermediate' },
-      { name: 'MobX', level: 'Basic' },
-      { name: 'Zustand', level: 'Intermediate' },
-      { name: 'Redux', level: 'Basic' }
+      { name: 'TypeScript', level: 'Basic' },
+      { name: 'Liquid', level: 'Basic' },
+      { name: 'jQuery', level: 'Basic' },
+      { name: 'UX/UI Design Principles', level: 'Experienced' },
+      { name: 'Responsive Design', level: 'Experienced' },
+      { name: 'Website Accessibility(WCAG 2.1 A/AA)', level: 'Experienced' },
+      { name: 'Semantic HTML', level: 'Intermediate' },
+      { name: 'ARIA roles', level: 'Intermediate' },
+      { name: 'Keyboard Navigation', level: 'Basic' },
+      { name: 'Screen Reader Optimization', level: 'Intermediate' }
     ]
   },
   {
     title: 'Back End',
     skills: [
-      { name: 'PostgreSQL', level: 'Intermediate' },
-      { name: 'MySQL', level: 'Basic' },
-      { name: 'REST API', level: 'Basic' },
       { name: 'Node.js', level: 'Intermediate' },
-      { name: 'NestJS', level: 'Basic' },
       { name: 'Express.js', level: 'Basic' },
-      { name: 'Python', level: 'Basic' }
-    ]
-  },
-  {
-    title: 'Tool Stack',
-    skills: [
-      { name: 'VS Code', level: 'Experienced' },
-      { name: 'Cursor', level: 'Experienced' },
-      { name: 'Postman', level: 'Intermediate' },
-      { name: 'DBML', level: 'Intermediate' },
-      { name: 'Docker', level: 'Basic' },
-      { name: 'Git/GitHub', level: 'Experienced' },
-      { name: 'CI/CD', level: 'Basic' },
-      { name: 'Jira', level: 'Intermediate' },
-      { name: 'Figma', level: 'Intermediate' }
+      { name: 'PHP', level: 'Basic' },
+      { name: 'Python', level: 'Intermediate' },
+      { name: 'Laravel', level: 'Basic' },
+      { name: 'GraphQL', level: 'Basic' },
+      { name: 'Shopify Admin API', level: 'Basic' },
+      { name: 'Shopify Storefront API', level: 'Basic' },
+      { name: 'REST APIs', level: 'Basic' },
+      { name: 'EC-Cube API', level: 'Basic' },
+      { name: 'Shopify Webhooks', level: 'Basic' }
     ]
   }
+  
 ]
 
 export type Platform = 'Website' | 'Mobile' | 'Desktop'
 
 export type Project = {
   image: string
-  sourceCode: string
   platform: Platform[]
   title: string
   description: string
   demo: string
   technologies: string[]
 }
+export type WORKFLOW = {
+  title: string
+  description: string
+}
 
 export const PROJECTS: Project[] = [
   {
-    image: '/projects/airbnb-clone-client.png',
-    sourceCode: 'https://github.com/MeiCloudie/airbnb-clone-client',
+    image: '/projects/elegance.png',
     platform: ['Website'],
-    title: 'Airbnb Clone Client',
+    title: 'Elegance Jewelry',
     description:
-      'Developed a client-side Airbnb clone replicating core platform features as a Booking Marketplace Platform, focusing on building key functionalities such as search with Google Maps, calendar-based booking, and payment integration.',
-    demo: 'https://airbnb-clone-client-meicloudie.vercel.app',
-    technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'ShadcnUI', 'Zustand']
+      'Elegance Jewelry is a modern e-commerce experience designed to showcase premium jewelry collections through a clean, visually rich interface. The platform emphasizes intuitive product discovery, category-driven navigation, responsive design, and seamless shopping journeys. Special attention was given to performance optimization, mobile-first usability, and conversion-focused user experience, creating an engaging storefront that balances aesthetics with functionality.',
+    demo: 'https://elegance-jewellery.vercel.app/',
+    technologies: ['Shopify/WooCommerce', 'React.js', 'Next.js', 'GraphQL/REST APIs', 'Responsive Design']
   },
   {
-    image: '/projects/hutech-classroom.png',
-    sourceCode: 'https://github.com/MeiCloudie/hutech-classroom-client-app',
+    image: '/projects/over-clocked.png',
     platform: ['Website', 'Desktop'],
-    title: 'HUTECH Classroom',
+    title: 'OverClocked',
     description:
-      'Developed a Classroom Management System for HUTECH to simplify classroom tasks, support teachers and staff, and improve the student learning experience.',
-    demo: 'https://hutech-classroom-edu.vercel.app',
-    technologies: ['React', 'TypeScript', 'MUI', 'MobX', 'Flutter', 'PostgreSQL']
+      'OverClocked is a specialized e-commerce platform built for PC builders, gamers, and hardware enthusiasts. It supports three roles — Customer, Seller, and Admin — each with a dedicated dashboard and experience. Customers can browse GPUs, CPUs, RAM, SSDs, cooling solutions and more, manage their cart and wishlist, and pay securely via Razorpay. Sellers can list hardware with detailed specs, manage inventory, and track orders. Admins get full control over users, seller approvals, and platform analytics.',
+    demo: 'https://over-clocked.vercel.app/',
+    technologies: ['Next.js', 'React.js', 'Node.js', 'Shopify Plus', 'Stripe']
   },
   {
-    image: '/projects/fiverr-clone.png',
-    sourceCode: 'https://github.com/MeiCloudie/react-fiverr-clone',
+    image: '/projects/martian-horse.png',
     platform: ['Website'],
-    title: 'Fiverr Clone',
+    title: 'Martian Horse',
     description:
-      'Developed a Fiverr Clone – a freelance service marketplace platform inspired by the real Fiverr – to practice and enhance Front-End development skills. The project replicates core features such as service listings, user profiles, and order management.',
-    demo: 'https://react-fiverr-clone-meicloudie.vercel.app',
-    technologies: ['React', 'JavaScript', 'Redux', 'Tailwind CSS', 'Ant Design']
+      'Martian Horse is a premium e-commerce web application built to deliver a blazing-fast shopping experience. It features a custom-built shopping cart, secure authentication, seamless payment gateway integration, and an intuitive admin dashboard for inventory management.',
+    demo: 'https://martian-horse-front-end.onrender.com/',
+    technologies: ['React.js', 'Node.js / Express.js', 'Payment Integration', 'Shopify Plus']
   },
   {
     image: '/projects/cyber-shoe-shop.png',
-    sourceCode: 'https://github.com/MeiCloudie/cyber-shoe-shop',
     platform: ['Website'],
     title: 'Cyber Shoe Shop',
     description:
       'Developed a fashion e-commerce website interface focused on shoe sales, practicing API calls to fetch and render data dynamically. Built using vanilla HTML, SASS, and JavaScript.',
     demo: 'https://cyber-shoe-shop-group5-bcs12.vercel.app',
-    technologies: ['HTML', 'CSS', 'SASS', 'JavaScript', 'Bootstrap']
+    technologies: ['React.js', 'Tailwind CSS', 'GraphQL/REST APIs', 'JavaScript', 'Next.js']
   },
   {
-    image: '/projects/corpvision.png',
-    sourceCode: 'https://github.com/MeiCloudie/corpvision',
+    image: '/projects/forever.png',
     platform: ['Website'],
-    title: 'Corpvision',
+    title: 'Forever',
     description:
-      'Developed an informational interface for Corp Vision, built using HTML, CSS, JavaScript, and Bootstrap.',
-    demo: 'https://corpvision-group9-bcs12.vercel.app',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap']
+      'ForeverBuy is a modern, minimalistic e-commerce platform designed to highlight the latest fashion collections with a clean and spacious UI. The project emphasizes product discovery through clear categories, responsive layouts, and visually striking hero sections. Built for performance and seamless user experience, it showcases skills in creating fast-loading, conversion-focused storefronts with elegant design and intuitive navigation for fashion retail',
+    demo: 'https://forever-frontend-hazel.vercel.app/',
+    technologies: ['Shopify Plus', 'Liquid', 'JavaScript/Typescript', 'Node.js', 'SEO Optimization']
+  }
+]
+
+export const WORKFLOW: WORKFLOW[] = [
+  {
+    title: 'Planning',
+    description:
+      'Assess client needs, business goals, and technical requirements; perform platform audits and recommend scalable solutions.'
+  },
+    {
+    title: 'Architecture',
+    description:
+      'Design frontend and backend architectures for Shopify, WooCommerce, or headless setups; plan APIs, database schemas, and integrations.'
+  },
+    {
+    title: 'Development',
+    description:
+      'Use Docker, Vercel, Netlify, or cloud-native CI/CD pipelines for smooth releases.'
+  },
+    {
+    title: 'Automation',
+    description:
+      'Develop custom Shopify apps, workflows, and automation with Zapier, Make.com, or custom backend scripts.'
+  },
+    {
+    title: 'Optimization',
+    description:
+      'Audit and improve Core Web Vitals, Lighthouse scores, metadata, accessibility, and page load times.'
+  },
+    {
+    title: 'Testing',
+    description:
+      'Conduct functional, performance, and cross-browser testing using Jest, Cypress, and BrowserStack.'
+  },
+    {
+    title: 'Deployment',
+    description:
+      'Use Docker, Vercel, Netlify, or cloud-native CI/CD pipelines for smooth releases.'
+  },
+    {
+    title: 'Monitoring',
+    description:
+      'Analyze traffic and user behavior via GA4, Hotjar, and Mixpanel; continuously improve UX, CRO, and operational efficiency.'
+  },
+    {
+    title: 'Collaboration',
+    description:
+      'Work closely with designers, product managers, and stakeholders; mentor junior developers and ensure best practices.'
   }
 ]
 
@@ -224,76 +281,73 @@ export type WorkExperience = {
   location: string
   description: string[]
   techStack: string[]
-  supervisor: Supervisor
 }
 
 export const WORK_EXPERIENCES: WorkExperience[] = [
   {
-    duration: 'Aug 2025 – Sep 2025',
-    position: 'TECHNICAL SUPPORT ENGINEER',
-    company: 'VNPT',
-    location: 'Ho Chi Minh City, Vietnam',
+    duration: 'Dec 2025 - Present',
+    position: 'Senior Ecommerce Full Stack Developer',
+    company: 'JustBlinds',
+    location: 'Frisco, TX',
     description: [
-      'Conducted system bug analysis, identified issues, and generated detailed, clear reports.',
-      'Provided training, guidance, and technical support to customers, ensuring efficient use of system features.',
-      'Collected customer feedback, consolidated insights, and contributed to feature development ideas for system enhancement.'
+      'Led a comprehensive SEO initiative to optimize metadata, schema markup, image handling, and crawlability. Monitored high-value landing pages using Google Search Console and maintained a perfect SEO score, resulting in significant increases in organic traffic and search visibility. ',
+      'Conducted in-depth performance audits using Lighthouse, WebPageTest, and Chrome DevTools. Resolved render-blocking resources, JavaScript bottlenecks, and inefficient Liquid patterns. Optimized theme architecture and asset delivery, improving LCP, FID, and CLS metrics, reducing page load times and enhancing user experience. ',
     ],
-    techStack: ['Bug Tracking', 'System Analysis', 'Customer Support'],
-    supervisor: {
-      fullName: 'Mr. Nguyen Xuan Tan',
-      position: 'IT Center Manager',
-      email: 'tannx.hcm@vnpt.vn'
-    }
+    techStack: ['Shopify Liquid', 'TypeScript', 'SEO', 'Performance Optimization', 'Node.js']
   },
   {
-    duration: 'Feb 2025 – Apr 2025',
-    position: 'FREELANCE FRONT-END DEVELOPER',
-    company: 'MXANH',
-    location: 'Ho Chi Minh City, Vietnam',
+    duration: 'Apr 2023 - Oct 2025',
+    position: 'Senior Full Stack Developer',
+    company: 'Siteminis',
+    location: 'ATL, GA',
     description: [
-      'Led the design and development of a Smart Waste Collection and Recycling System, defining system requirements and technical specifications.',
-      'Designed user-friendly UI/UX interfaces with Figma, focusing on intuitive navigation and accessibility across devices.',
-      'Researched and applied Flutter to prototype key mobile features like waste categorization, scheduling, and notifications.'
+      'Blended senior engineering execution with strategic business support and investor communications, working closely with executives and founders.',
+      'Collaborated with leadership to align product development with long-term business goals and fundraising objectives. ',
     ],
-    techStack: ['Flutter', 'Figma', 'Business Analysis'],
-    supervisor: {
-      fullName: 'Mr. Nguyen Duc An',
-      position: 'Project Manager',
-      email: 'nguyenducan.vn@gmail.com'
-    }
+    techStack: ['React', 'TypeScript', 'REST APIs', 'Event-Driven Architecture', 'Machine Learning']
   },
   {
-    duration: 'Dec 2024 – Apr 2025',
-    position: 'FREELANCE FRONT-END DEVELOPER',
-    company: 'Garago',
-    location: 'Ho Chi Minh City, Vietnam',
+    duration: 'Dec 2022 - Mar 2023',
+    position: 'Senior E-Commerce Developer',
+    company: 'Sweat Pants Agency',
+    location: 'Owings Mills, MD',
     description: [
-      'Contributed to defining system requirements and planning key functionalities for the Automotive Service Search and Evaluation System.',
-      'Designed modern, user-friendly UI/UX using Figma, with a focus on responsive layout and intuitive user flow.',
-      'Assisted in developing the web application using Angular, implementing core features such as garage location search, service evaluation, and garage sales management.'
+      'Spearheaded technical discovery phases for global e-commerce brands, conducting in-depth platform assessments, identifying bottlenecks, and recommending scalable architectures for seamless digital experiences.',
+      'Designed and implemented high-traffic, content-rich storefronts using headless commerce strategies powered by Shopify Plus and Next.js, optimizing both performance and user experience. ',
     ],
-    techStack: ['Angular', 'Figma', 'Business Analysis'],
-    supervisor: {
-      fullName: 'Mr. Nguyen Duc An',
-      position: 'Project Manager',
-      email: 'nguyenducan.vn@gmail.com'
-    }
+    techStack: ['Shopify Plus', 'Next.js', 'React', 'TypeScript', 'Shopify Hydrogen']
   },
   {
-    duration: 'Apr 2024 – Oct 2024',
-    position: 'FULLSTACK DEVELOPER',
-    company: 'CyberSoft Academy',
-    location: 'Ho Chi Minh City, Vietnam',
+    duration: 'Oct 2019 - Nov 2022',
+    position: 'Lead Shopify & WooCommerce Developer',
+    company: 'Volusion',
+    location: 'Austin, TX',
     description: [
-      'Developed TypeScript documentation by researching and organizing over 20 key resources, enhancing content creation by 50% as a valuable company asset.',
-      "Built a Transaction Management project in Python, meeting approximately 90% of the company's specifications, with potential for future development to expand capabilities by an estimated 20%.",
-      'Compiled a structured documentation set by consolidating around 50 resources, including applicable datasets, for Data Analysis with Python.'
+      'Spearheaded the design, development, and optimization of Shopify and WooCommerce storefronts, ensuring high performance, scalability, and secure operations under heavy user traffic.',
+      '•	Architected end-to-end e-commerce solutions, including theme customization, app integrations, and personalized checkout processes, enhancing customer journeys and conversion rates.'
     ],
-    techStack: ['TypeScript', 'Python', 'Data Analysis'],
-    supervisor: {
-      fullName: 'Ms. Tran Chau Thanh Nguyen',
-      position: 'Chief Technology Officer',
-      email: 'ntran44.cybersoft@gmail.com'
-    }
+    techStack: ['Shopify', 'Python', 'WooCommerce', 'GraphQL', 'JavaScript']
+  },
+  {
+    duration: 'Dec 2017 - Oct 2019',
+    position: 'Full Stack Developer',
+    company: 'Nucleus Commerce',
+    location: 'Springfield, MO',
+    description: [
+      'Developed custom full-stack e-commerce solutions on Shopify, WordPress, and EC-Cube, tailoring features to client requirements and regional market demands.',
+      'Adapted storefronts to regional compliance needs, including local tax rules, language localization, and consumer behavior, ensuring consistent customer experiences.'
+    ],
+    techStack: ['Shopify', 'WordPress', 'Next.js', 'PHP', 'AWS']
   }
+  // {
+  //   duration: 'Nov 2014 - Apr 2017',
+  //   position: 'Frontend Developer',
+  //   company: 'Velocity Technology Solutions',
+  //   location: 'Charlotte, NC',
+  //   description: [
+  //     '•	Spearheaded the design and development of scalable, responsive e-commerce frontends with React.js, optimized for desktop, tablet, and mobile devices.',
+  //     '•	Integrated frontend solutions with multiple CMS platforms and backend systems, enabling dynamic content delivery and seamless management.'
+  //   ],
+  //   techStack: ['TypeScript', 'Python', 'Data Analysis']
+  // }
 ]

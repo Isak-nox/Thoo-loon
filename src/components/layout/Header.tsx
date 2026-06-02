@@ -49,7 +49,7 @@ const Header = () => {
                 <WordRotate
                   duration={10000}
                   className='text-3xl xl:text-4xl font-lobster text-primary pr-1'
-                  words={['Trương Thục Vân', 'MeiCloudie']}
+                  words={['Kaito Hoshizora']}
                 />
               </Link>
             </div>
@@ -110,8 +110,8 @@ const Header = () => {
               </div>
 
               <div className='flex flex-col gap-2 mb-8'>
-                <h1 className='text-2xl font-lobster'>Trương Thục Vân</h1>
-                <p className='text-lg font-semibold text-primary'>Software Engineer</p>
+                <h1 className='text-2xl font-lobster'>Kaito Hoshizora</h1>
+                <p className='text-lg font-semibold text-primary'>Ecommerce Full-stack Engineer</p>
               </div>
 
               <nav className='flex flex-col items-start gap-8'>

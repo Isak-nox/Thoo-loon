@@ -18,10 +18,10 @@ const lobster = Lobster({
 })
 
 export const metadata: Metadata = {
-  title: 'Trương Thục Vân',
-  description: 'Portfolio of Trương Thục Vân (MeiCloudie)',
+  title: 'Kaito Hoshizora',
+  description: 'Portfolio of Kaito Hoshizora',
   icons: {
-    icon: '/favicon.ico'
+    icon: '/favicon.png'
   }
 }
 

@@ -19,19 +19,7 @@ const Footer = () => {
       <div className='container px-4 sm:px-6 text-center space-y-4 sm:space-y-2'>
         <p className='text-xs sm:text-sm'>
           &copy; {new Date().getFullYear()}{' '}
-          <FooterLink href='https://github.com/MeiCloudie'>Truong Thuc Van</FooterLink>. All rights reserved.
-        </p>
-
-        <p className='text-xs sm:text-sm max-w-md xl:max-w-4xl mx-auto'>
-          Special thanks to{' '}
-          {SPECIAL_THANKS.map((item, index) => (
-            <React.Fragment key={item.href}>
-              <FooterLink href={item.href}>{item.label}</FooterLink>
-              {index < SPECIAL_THANKS.length - 1 && ', '}
-              {index === SPECIAL_THANKS.length - 2 && 'and '}
-            </React.Fragment>
-          ))}{' '}
-          for empowering the development of this website.
+          Kaito Hoshizora
         </p>
 
         <div className='flex items-center justify-center gap-4 sm:gap-5 pt-2'>

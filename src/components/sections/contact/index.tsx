@@ -16,7 +16,7 @@ const ContactSection = () => {
 
   const handleCopyEmail = async () => {
     try {
-      await navigator.clipboard.writeText('tthvan.dev@gmail.com')
+      await navigator.clipboard.writeText('Isaknox.micro@outlook.com')
       setIsCopied(true)
       setTimeout(() => setIsCopied(false), 2000)
     } catch (err) {
@@ -34,7 +34,7 @@ const ContactSection = () => {
             {/* Paragraph */}
             <div className='flex flex-col gap-2'>
               <h3 className='text-center text-balance text-sm sm:text-lg md:text-xl lg:text-2xl leading-relaxed font-medium'>
-                I&apos;m always open to freelance opportunities, long-term collaborations, or meaningful partnerships.
+                I&apos;m always open to job opportunities, long-term collaborations, or meaningful partnerships.
               </h3>
               <h3 className='text-center text-balance text-sm sm:text-lg md:text-xl lg:text-2xl leading-relaxed font-medium'>
                 Feel free to reach out — I read every message and will get back to you as soon as I can.
@@ -52,14 +52,14 @@ const ContactSection = () => {
                     <MapLocationDotIcon width={40} height={40} className='text-primary sm:w-[60px] sm:h-[60px]' />
                     <div className='flex flex-col gap-2 text-center sm:text-left'>
                       <h4 className='text-lg md:text-xl uppercase font-medium text-muted-foreground'>Address Point</h4>
-                      <p className='text-lg sm:text-xl md:text-2xl font-semibold'>Ho Chi Minh City, Vietnam</p>
+                      <p className='text-lg sm:text-xl md:text-2xl font-semibold'>Tokyo City, Japan</p>
                     </div>
                   </div>
                 </CardContent>
               </Card>
 
               {/* Mail me Card */}
-              <Link href='mailto:tthvan.dev@gmail.com' className='block w-full'>
+              <Link href='mailto:Isaknox.micro@outlook.com' className='block w-full'>
                 <Card className='relative overflow-hidden w-full p-4 sm:p-10 group hover:bg-accent/40 transition-colors duration-300 cursor-pointer'>
                   <ShineBorder borderWidth={3} shineColor={GRADIENT_COLORS} />
 
@@ -69,7 +69,7 @@ const ContactSection = () => {
                       <h4 className='text-lg md:text-xl uppercase font-medium text-muted-foreground'>Mail Me</h4>
                       <div className='flex items-center gap-2 flex-wrap justify-center sm:justify-start'>
                         <p className='text-lg sm:text-xl md:text-2xl font-semibold group-hover:text-primary transition-colors duration-300 break-all sm:break-normal'>
-                          tthvan.dev@gmail.com
+                          Isaknox.micro@outlook.com
                         </p>
                         <Button
                           variant='ghost'
@@ -94,7 +94,7 @@ const ContactSection = () => {
               </Link>
 
               {/* Social Links */}
-              <div className='flex flex-col gap-8'>
+              {/* <div className='flex flex-col gap-8'>
                 <h3 className='text-center text-xl md:text-2xl'>Or just connect with me via:</h3>
 
                 <div className='flex items-center justify-center gap-8'>
@@ -108,7 +108,7 @@ const ContactSection = () => {
                     </Link>
                   ))}
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

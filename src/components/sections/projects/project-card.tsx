@@ -85,12 +85,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
             </Link>
 
             {/* GitHub Link */}
-            <Link href={project.sourceCode} target='_blank' rel='noopener noreferrer' className='flex-1'>
+            <div rel='noopener noreferrer' className='flex-1'>
               <Button variant={'secondary'} size={'lg'} className='w-full sm:text-base'>
-                <GitHubLogo width={16} height={16} />
-                Source Code
+                  Detail
               </Button>
-            </Link>
+            </div>
           </div>
         </CardFooter>
       </MagicCard>
