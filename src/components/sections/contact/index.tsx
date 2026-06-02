@@ -7,7 +7,7 @@ import MapLocationDotIcon from "@/components/icon/map-location-dot-icon";
 import { ShineBorder } from "@/components/magicui/shine-border";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { GRADIENT_COLORS, SOCIAL_LINKS } from "@/lib/constants";
+import { GRADIENT_COLORS } from "@/lib/constants";
 import Link from "next/link";
 import React, { useState } from "react";
 

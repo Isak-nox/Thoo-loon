@@ -20,26 +20,7 @@ const eslintConfig = [
       "coverage/**",
     ],
   },
-  ...compat.extends("next/core-web-vitals", "next/typescript", "prettier"),
-  ...compat.plugins("prettier"),
-  {
-    rules: {
-      "prettier/prettier": [
-        "warn",
-        {
-          arrowParens: "always",
-          semi: false,
-          trailingComma: "none",
-          tabWidth: 2,
-          endOfLine: "auto",
-          useTabs: false,
-          singleQuote: true,
-          printWidth: 120,
-          jsxSingleQuote: true,
-        },
-      ],
-    },
-  },
+  ...compat.extends("next/core-web-vitals", "next/typescript"),
 ];
 
 export default eslintConfig;
