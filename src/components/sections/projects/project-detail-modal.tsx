@@ -157,16 +157,9 @@ const ProjectDetailModal = ({
           <div className="space-y-8 px-4 py-6 sm:px-8 sm:py-8">
             <div className="space-y-4">
               <div className="flex items-start justify-between gap-4">
-                <div className="space-y-2">
-                  {project.showcase && (
-                    <span className="inline-flex rounded-md border border-[#FE8FB5]/50 bg-[#FE8FB5]/10 px-2.5 py-1 text-[11px] font-medium uppercase tracking-wide text-[#FE8FB5]">
-                      Showcase case study
-                    </span>
-                  )}
-                  <h2 className="text-xl font-bold leading-snug sm:text-2xl lg:text-3xl">
-                    {project.title}
-                  </h2>
-                </div>
+                <h2 className="text-xl font-bold leading-snug sm:text-2xl lg:text-3xl">
+                  {project.title}
+                </h2>
                 <Link
                   href={project.demo}
                   target="_blank"

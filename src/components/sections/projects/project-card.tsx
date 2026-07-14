@@ -30,16 +30,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
             />
           </div>
 
-          <div className="mb-2 flex flex-wrap items-center gap-2">
+          <div className="mb-2 flex items-center gap-2">
             <span className="h-px w-6 bg-zinc-500" />
             <span className="text-sm text-zinc-400">
               {project.platform.join(" • ")}
             </span>
-            {project.showcase && (
-              <span className="rounded-md border border-primary/40 bg-primary/10 px-2 py-0.5 text-[11px] font-medium uppercase tracking-wide text-primary">
-                Showcase
-              </span>
-            )}
           </div>
 
           <h3 className="mb-3 text-xl font-bold text-white sm:text-2xl">

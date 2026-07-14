@@ -9,7 +9,7 @@ import { ComponentType } from "react";
 export const PROFILE_NAME = "Thoo Kok Loon";
 export const PROFILE_TITLE = "Senior Shopify Developer";
 export const CONTACT_EMAIL = "ThLoon.micro@outlook.com";
-export const CONTACT_PHONE = "(214) 393-1307";
+export const CONTACT_PHONE = "+1 (214) 393-1307";
 export const CONTACT_LOCATION = "Houston, TX";
 export const CONTACT_BIO =
   "I'm always open to discussing new opportunities, creative projects, or potential collaborations. Feel free to reach out if you'd like to connect!";
