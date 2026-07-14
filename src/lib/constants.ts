@@ -562,9 +562,9 @@ export const WORK_EXPERIENCES: WorkExperience[] = [
     company: "JustBlinds",
     location: "Houston, TX",
     description: [
-      "Improved Shopify storefront usability across Liquid templates, theme sections, and responsive components on desktop, tablet, and mobile.",
-      "Diagnosed Liquid/JS/third-party performance issues—cutting page load time by ~35% and improving Core Web Vitals; optimized 3,500+ product/marketing images to WebP.",
-      "Created Figma layouts and implemented approved designs into Shopify themes; built React/Next.js internal tools and Shopify Admin API integrations for ops workflows.",
+      "Owned Shopify storefront UX by refining Liquid themes, product/landing sections, and responsive layouts while translating Figma designs into production with strong visual QA.",
+      "Improved performance and operations—cutting page load ~35%, lifting Core Web Vitals, converting 3,500+ assets to WebP, and building React/Next.js tools plus Admin API sync for purchase-order workflows.",
+      "Partnered with marketing and ops stakeholders to turn analytics insights into clearer navigation, content, and conversion-oriented storefront updates.",
     ],
     techStack: [
       "Shopify",
@@ -582,9 +582,9 @@ export const WORK_EXPERIENCES: WorkExperience[] = [
     company: "Kahuna Workforce Solutions",
     location: "Houston, TX",
     description: [
-      "Built React and Next.js workforce apps with reusable dashboard, reporting, and operational UI patterns for internal teams and customers.",
-      "Shipped responsive TypeScript + Tailwind layouts; integrated REST APIs and improved rendering/data-fetch performance.",
-      "Partnered with designers in Figma and delivered iteratively through Agile sprints, reviews, and releases.",
+      "Built React/Next.js workforce applications with reusable dashboards, reporting, and operational UI that simplified complex team workflows.",
+      "Shipped TypeScript and Tailwind responsive interfaces, integrated REST APIs, and optimized rendering and data-fetch patterns for better app responsiveness.",
+      "Collaborated with design and product through Figma reviews and Agile sprints to deliver iterative customer-facing improvements.",
     ],
     techStack: [
       "React.js",
@@ -601,9 +601,9 @@ export const WORK_EXPERIENCES: WorkExperience[] = [
     company: "Shoebacca",
     location: "Irving, TX",
     description: [
-      "Customized Shopify Plus storefronts with Liquid, theme sections, and reusable components for product discovery across devices.",
-      "Translated Figma designs into PDP, collection, and landing pages; improved checkout/conversion through CRO and A/B testing.",
-      "Integrated Shopify APIs, webhooks, and third-party apps; optimized Core Web Vitals and supported Shopify Markets localization.",
+      "Customized Shopify Plus themes—Liquid sections, PDPs, collections, and landing pages—from Figma into consistent responsive storefront experiences.",
+      "Drove CRO and A/B testing on discovery and checkout journeys using GA4/Hotjar insights while optimizing Core Web Vitals on key commercial templates.",
+      "Integrated Shopify APIs, webhooks, and third-party apps for subscriptions, loyalty, shipping, and ERP/CRM sync; supported Shopify Markets localization.",
     ],
     techStack: [
       "Shopify Plus",
@@ -621,9 +621,9 @@ export const WORK_EXPERIENCES: WorkExperience[] = [
     company: "Volusion",
     location: "Austin, TX",
     description: [
-      "Led Shopify storefront projects by customizing Liquid templates, reusable sections, and frontend components at merchant scale.",
-      "Built app customizations and ERP/CRM/payment integrations (Stripe, PayPal, Square, AfterPay).",
-      "Applied CRO and A/B testing, improved performance, and connected Shopify POS with inventory and loyalty systems.",
+      "Led Shopify storefront delivery by building reusable Liquid sections, product templates, and frontend components merchants could update efficiently.",
+      "Connected commerce systems through Shopify apps, REST/GraphQL APIs, ERP/CRM/inventory sync, and payments (Stripe, PayPal, Square, AfterPay), including POS workflows.",
+      "Applied CRO and A/B testing with analytics-informed UX while explaining Shopify constraints and tradeoffs to non-technical clients.",
     ],
     techStack: [
       "Shopify",
@@ -641,9 +641,9 @@ export const WORK_EXPERIENCES: WorkExperience[] = [
     company: "IWD Agency",
     location: "Austin, TX",
     description: [
-      "Developed Shopify, WooCommerce, and EC-Cube storefronts from Figma concepts into responsive production themes.",
-      "Built React/Next.js components and regional payment integrations (Konbini, PayPay, Paidy); supported Shopify POS.",
-      "Maintained GitLab CI/CD and AWS deployment workflows with post-launch performance and UX improvements.",
+      "Delivered Shopify, WooCommerce, and EC-Cube client storefronts—Figma concepts to Liquid/React/Next.js themes with responsive product, collection, and promo sections.",
+      "Improved shopping flows (discovery, accounts, wishlist, checkout) and integrated regional payments (Konbini, PayPay, Paidy) plus Shopify POS for online/offline ops.",
+      "Maintained GitLab CI/CD and AWS release pipelines and supported post-launch performance, analytics, and A/B-driven UX improvements.",
     ],
     techStack: [
       "Shopify",
