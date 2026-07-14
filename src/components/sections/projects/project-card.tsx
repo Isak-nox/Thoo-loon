@@ -30,8 +30,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
             />
           </div>
 
-          <div className="mb-2 flex items-center gap-2">
+          <div className="mb-2 flex flex-wrap items-center gap-2">
             <span className="h-px w-6 bg-zinc-500" />
+            <span className="text-sm text-zinc-400">
+              {project.role}
+            </span>
+            <span className="text-zinc-600">·</span>
             <span className="text-sm text-zinc-400">
               {project.platform.join(" • ")}
             </span>
