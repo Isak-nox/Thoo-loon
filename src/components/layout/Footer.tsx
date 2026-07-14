@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="py-8 sm:py-10 border-t bg-background-lighter">
       <div className="container px-4 sm:px-6 text-center space-y-4 sm:space-y-2">
         <p className="text-xs sm:text-sm">
-          &copy; {new Date().getFullYear()} Kaito Hoshizora
+          &copy; {new Date().getFullYear()} Thoo Kok Loon
         </p>
 
         <div className="flex items-center justify-center gap-4 sm:gap-5 pt-2">

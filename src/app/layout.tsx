@@ -18,8 +18,8 @@ const lobster = Lobster({
 });
 
 export const metadata: Metadata = {
-  title: "Kaito Hoshizora",
-  description: "Portfolio of Kaito Hoshizora",
+  title: "Thoo Kok Loon",
+  description: "Portfolio of Thoo Kok Loon — Senior Shopify Developer",
   icons: {
     icon: "/favicon.png",
   },

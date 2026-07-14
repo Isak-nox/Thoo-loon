@@ -1,14 +1,18 @@
-import FacebookLogo from "@/components/logo/facebook-logo";
 import LinkedinLogo from "@/components/logo/linkedin-logo";
-import XLogo from "@/components/logo/x-logo";
-import TypescriptLogo from "@/components/logo/typescript-logo";
-import NodejsLogo from "@/components/logo/nodejs-logo";
 import ReactLogo from "@/components/logo/react-logo";
 import NextjsLogo from "@/components/logo/nextjs-logo";
-import NestjsLogo from "@/components/logo/nestjs-logo";
+import ShopifyLogo from "@/components/logo/shopify-logo";
+import FigmaLogo from "@/components/logo/figma-logo";
+import LiquidLogo from "@/components/logo/liquid-logo";
 import { ComponentType } from "react";
 
-export const CV_URL = "/cv/My Resume.pdf";
+export const PROFILE_NAME = "Thoo Kok Loon";
+export const PROFILE_TITLE = "Senior Shopify Developer";
+export const CONTACT_EMAIL = "ThLoon.micro@outlook.com";
+export const CONTACT_PHONE = "(214) 393-1307";
+export const CONTACT_LOCATION = "Houston, TX";
+export const CONTACT_BIO =
+  "I'm always open to discussing new opportunities, creative projects, or potential collaborations. Feel free to reach out if you'd like to connect!";
 
 export type SocialLink = {
   href: string;
@@ -18,19 +22,9 @@ export type SocialLink = {
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
-    href: "https://www.linkedin.com/in/truongthucvan/",
+    href: "https://www.linkedin.com/in/t-loon-79710741a/",
     icon: LinkedinLogo,
     label: "LinkedIn",
-  },
-  {
-    href: "https://www.facebook.com/ttvan1242/",
-    icon: FacebookLogo,
-    label: "Facebook",
-  },
-  {
-    href: "https://x.com/MeiCloudie1242",
-    icon: XLogo,
-    label: "X (Twitter)",
   },
 ];
 
@@ -40,26 +34,19 @@ export type MainSkill = {
 };
 
 export const MAIN_SKILLS: MainSkill[] = [
-  {
-    icon: TypescriptLogo,
-    name: "Typescript",
-  },
-  {
-    icon: NodejsLogo,
-    name: "Nodejs",
-  },
-  {
-    icon: ReactLogo,
-    name: "React",
-  },
-  {
-    icon: NextjsLogo,
-    name: "Next.js",
-  },
-  {
-    icon: NestjsLogo,
-    name: "NestJS",
-  },
+  { icon: ShopifyLogo, name: "Shopify" },
+  { icon: LiquidLogo, name: "Liquid" },
+  { icon: FigmaLogo, name: "Figma" },
+  { icon: ReactLogo, name: "React" },
+  { icon: NextjsLogo, name: "Next.js" },
+];
+
+export const CERTIFICATIONS = [
+  "JavaScript Certification",
+  "React Certification",
+  "UX Design Certification",
+  "HTML/CSS Certification",
+  "AWS Certification",
 ];
 
 export type SpecialThanks = {
@@ -74,7 +61,7 @@ export const SPECIAL_THANKS: SpecialThanks[] = [
   { href: "https://ui.aceternity.com", label: "Aceternity UI" },
 ];
 
-export type SkillLevel = "Basic" | "Intermediate" | "Experienced";
+export type SkillLevel = "Basic" | "Intermediate" | "Experienced" | "Expert";
 
 export type Skill = {
   name: string;
@@ -90,81 +77,81 @@ export const GRADIENT_COLORS = ["#FFA001", "#FE8FB5", "#FC4100"];
 
 export const SKILLS: SkillCategory[] = [
   {
-    title: "CMS & ECommerce",
+    title: "Platforms",
     skills: [
-      { name: "Shopify", level: "Experienced" },
-      { name: "Shopify Plus", level: "Experienced" },
-      { name: "Shopify App", level: "Intermediate" },
-      { name: "Theme Development & Customization", level: "Intermediate" },
-      { name: "WooCommerce", level: "Basic" },
-      { name: "Contentful", level: "Experienced" },
-      { name: "Headless CMS Architecture", level: "Basic" },
-      { name: "CRO", level: "Intermediate" },
-      { name: "Performance Optimization", level: "Intermediate" },
-      { name: "Core Web Vitals", level: "Intermediate" },
-      { name: "Adobe Commerce Cloud", level: "Intermediate" },
-      { name: "WordPress", level: "Intermediate" },
-      { name: "Shopify Hydrogen", level: "Intermediate" },
+      { name: "Shopify", level: "Expert" },
+      { name: "Shopify Plus", level: "Expert" },
+      { name: "Shopify Online Store 2.0", level: "Expert" },
+      { name: "Shopify Themes", level: "Expert" },
+      { name: "Shopify Headless Commerce", level: "Intermediate" },
+      { name: "Shopify Theme Development", level: "Expert" },
+      { name: "Shopify App Development", level: "Intermediate" },
+      { name: "WooCommerce", level: "Intermediate" },
       { name: "BigCommerce", level: "Intermediate" },
-      { name: "EC-Cube", level: "Intermediate" },
-      { name: "Magento", level: "Intermediate" },
-      { name: "Wagtail", level: "Intermediate" },
-      { name: "Sitecore", level: "Intermediate" },
-      { name: "Shogun", level: "Intermediate" },
-      { name: "PageFly", level: "Intermediate" },
-      { name: "Replo", level: "Intermediate" },
     ],
   },
   {
     title: "Front End",
     skills: [
-      { name: "React.js", level: "Experienced" },
-      { name: "Next.js", level: "Experienced" },
-      { name: "Vue.js", level: "Intermediate" },
-      { name: "HTML5", level: "Intermediate" },
-      { name: "SCSS", level: "Intermediate" },
-      { name: "Tailwind CSS", level: "Intermediate" },
+      { name: "Liquid", level: "Expert" },
       { name: "JavaScript", level: "Intermediate" },
-      { name: "TypeScript", level: "Basic" },
-      { name: "Liquid", level: "Basic" },
-      { name: "jQuery", level: "Basic" },
-      { name: "UX/UI Design Principles", level: "Experienced" },
-      { name: "Responsive Design", level: "Experienced" },
-      { name: "Website Accessibility(WCAG 2.1 A/AA)", level: "Experienced" },
-      { name: "Semantic HTML", level: "Intermediate" },
-      { name: "ARIA roles", level: "Intermediate" },
-      { name: "Keyboard Navigation", level: "Basic" },
-      { name: "Screen Reader Optimization", level: "Intermediate" },
+      { name: "TypeScript", level: "Intermediate" },
+      { name: "React.js", level: "Intermediate" },
+      { name: "Next.js", level: "Intermediate" },
+      { name: "HTML5", level: "Intermediate" },
+      { name: "CSS3 / SCSS", level: "Intermediate" },
+      { name: "Tailwind CSS", level: "Intermediate" },
+      { name: "Vue.js", level: "Intermediate" },
+      { name: "Responsive / Mobile-First Design", level: "Expert" },
+      { name: "UX/UI Design Principles", level: "Expert" },
+      { name: "Accessibility (WCAG 2.1)", level: "Intermediate" },
+      { name: "CRO & A/B Testing", level: "Expert" },
+      { name: "Conversion Funnel Optimization", level: "Expert" },
+      { name: "Customer Journey Optimization", level: "Expert" },
     ],
   },
   {
-    title: "Back End",
+    title: "APIs & Tools",
     skills: [
-      { name: "Node.js", level: "Intermediate" },
-      { name: "Express.js", level: "Basic" },
-      { name: "PHP", level: "Basic" },
-      { name: "Python", level: "Intermediate" },
-      { name: "Laravel", level: "Basic" },
-      { name: "GraphQL", level: "Basic" },
-      { name: "Shopify Admin API", level: "Basic" },
-      { name: "Shopify Storefront API", level: "Basic" },
-      { name: "REST APIs", level: "Basic" },
-      { name: "EC-Cube API", level: "Basic" },
-      { name: "Shopify Webhooks", level: "Basic" },
+      { name: "Figma", level: "Expert" },
+      { name: "Figma Auto Layout & Variants", level: "Expert" },
+      { name: "Wireframing & Prototyping", level: "Expert" },
+      { name: "High-Fidelity UI Design", level: "Expert" },
+      { name: "Shopify Storefront API", level: "Intermediate" },
+      { name: "Shopify Admin API", level: "Intermediate" },
+      { name: "Shopify Webhooks", level: "Intermediate" },
+      { name: "REST APIs", level: "Intermediate" },
+      { name: "GraphQL", level: "Intermediate" },
+      { name: "GA4 / GSC / Hotjar", level: "Intermediate" },
+      { name: "Lighthouse / Core Web Vitals", level: "Intermediate" },
+      { name: "Git / GitHub / GitLab", level: "Intermediate" },
+      { name: "Stripe / PayPal / Square", level: "Intermediate" },
     ],
   },
 ];
 
 export type Platform = "Website" | "Mobile" | "Desktop";
 
+export type ProjectDetailSection = {
+  title: string;
+  items: string[];
+};
+
 export type Project = {
   image: string;
+  images: string[];
   platform: Platform[];
+  /** Public storefront used as a visual showcase — not claimed client/employment work. */
+  showcase: boolean;
   title: string;
   description: string;
+  detailsIntro: string;
+  detailSections: ProjectDetailSection[];
   demo: string;
   technologies: string[];
+  keySkills: string[];
 };
+
 export type WORKFLOW = {
   title: string;
   description: string;
@@ -172,71 +159,335 @@ export type WORKFLOW = {
 
 export const PROJECTS: Project[] = [
   {
-    image: "/projects/elegance.png",
+    image: "/projects/minaal.png",
+    images: [
+      "/projects/minaal.png",
+      "/projects/minaal/02.png",
+      "/projects/minaal/03.png",
+    ],
     platform: ["Website"],
-    title: "Elegance Jewelry",
+    showcase: true,
+    title: "Minaal — Travel Commerce Storefront Patterns",
     description:
-      "Elegance Jewelry is a modern e-commerce experience designed to showcase premium jewelry collections through a clean, visually rich interface. The platform emphasizes intuitive product discovery, category-driven navigation, responsive design, and seamless shopping journeys. Special attention was given to performance optimization, mobile-first usability, and conversion-focused user experience, creating an engaging storefront that balances aesthetics with functionality.",
-    demo: "https://elegance-jewellery.vercel.app/",
+      "Showcase study of a premium travel-gear Shopify storefront—product discovery, PDP storytelling, and mobile conversion paths typical of high-intent catalog commerce.",
+    detailsIntro:
+      "Public showcase storefront (not employment/client attribution). Used to illustrate how I approach Shopify theme UX for travel and lifestyle catalogs grounded in Liquid, OS 2.0 sections, Figma-to-theme fidelity, and CRO-minded merchandising.",
+    detailSections: [
+      {
+        title: "UX patterns highlighted",
+        items: [
+          "Hero storytelling with clear CTAs into bag/collection discovery.",
+          "Collection grids with readable product cards, pricing, and variant cues.",
+          "Trust and shipping callouts that support international purchase confidence.",
+        ],
+      },
+      {
+        title: "Skills this showcase maps to",
+        items: [
+          "Shopify Online Store 2.0 section thinking and Liquid component reuse.",
+          "Figma-aligned spacing, typography, and responsive QA discipline.",
+          "Performance-aware image/asset approaches on product-heavy templates.",
+        ],
+      },
+      {
+        title: "Relevant delivery experience",
+        items: [
+          "Drawn from Senior Shopify work across employers on themes, PDPs, and CRO—not from claimed ownership of this brand.",
+          "Same class of problems solved on production Shopify / Shopify Plus builds in my work history.",
+        ],
+      },
+    ],
+    demo: "https://www.minaal.com/",
     technologies: [
-      "Shopify/WooCommerce",
-      "React.js",
-      "Next.js",
-      "GraphQL/REST APIs",
+      "Shopify Plus",
+      "Shopify Online Store 2.0",
+      "Liquid",
+      "Figma",
+      "Responsive Design",
+      "CRO",
+    ],
+    keySkills: [
+      "Theme section architecture",
+      "PDP & collection UX",
+      "Figma-to-Liquid fidelity",
+      "Mobile-first storefront UX",
+      "CRO-minded merchandising",
+      "Visual QA",
+    ],
+  },
+  {
+    image: "/projects/brightland.png",
+    images: [
+      "/projects/brightland.png",
+      "/projects/brightland/02.png",
+      "/projects/brightland/03.png",
+    ],
+    platform: ["Website"],
+    showcase: true,
+    title: "Brightland — DTC Merchandising & Bundle UX",
+    description:
+      "Showcase study of a design-led DTC Shopify brand—bestsellers, gift sets, and collection filters that model subscription-friendly pantry commerce layouts.",
+    detailsIntro:
+      "Public showcase storefront (not employment/client attribution). Focuses on merchandising systems, product-card hierarchy, and campaign-ready collection UX patterns I apply on Shopify builds.",
+    detailSections: [
+      {
+        title: "UX patterns highlighted",
+        items: [
+          "Category filters and bestseller grids with clear badges and pricing.",
+          "Gift-set and multi-SKU merchandising that reduces purchase ambiguity.",
+          "Brand-forward heroes with concise CTAs into shoppable collections.",
+        ],
+      },
+      {
+        title: "Skills this showcase maps to",
+        items: [
+          "Shopify theme customization for DTC storytelling.",
+          "Bundle / set presentation and subscribe vs one-time clarity patterns.",
+          "Visual QA against expressive brand systems without cluttering CRO.",
+        ],
+      },
+      {
+        title: "Relevant delivery experience",
+        items: [
+          "Aligned with theme and landing-page work from my Shopify roles—not claimed work for this brand.",
+        ],
+      },
+    ],
+    demo: "https://brightland.co/",
+    technologies: [
+      "Shopify",
+      "Liquid",
+      "Figma",
+      "CRO",
       "Responsive Design",
     ],
-  },
-  {
-    image: "/projects/over-clocked.png",
-    platform: ["Website", "Desktop"],
-    title: "OverClocked",
-    description:
-      "OverClocked is a specialized e-commerce platform built for PC builders, gamers, and hardware enthusiasts. It supports three roles — Customer, Seller, and Admin — each with a dedicated dashboard and experience. Customers can browse GPUs, CPUs, RAM, SSDs, cooling solutions and more, manage their cart and wishlist, and pay securely via Razorpay. Sellers can list hardware with detailed specs, manage inventory, and track orders. Admins get full control over users, seller approvals, and platform analytics.",
-    demo: "https://over-clocked.vercel.app/",
-    technologies: ["Next.js", "React.js", "Node.js", "Shopify Plus", "Stripe"],
-  },
-  {
-    image: "/projects/martian-horse.png",
-    platform: ["Website"],
-    title: "Martian Horse",
-    description:
-      "Martian Horse is a premium e-commerce web application built to deliver a blazing-fast shopping experience. It features a custom-built shopping cart, secure authentication, seamless payment gateway integration, and an intuitive admin dashboard for inventory management.",
-    demo: "https://martian-horse-front-end.onrender.com/",
-    technologies: [
-      "React.js",
-      "Node.js / Express.js",
-      "Payment Integration",
-      "Shopify Plus",
+    keySkills: [
+      "DTC collection UX",
+      "Bundle & gift-set merchandising",
+      "Campaign landing patterns",
+      "Figma collaboration",
+      "Mobile-first storefront UX",
     ],
   },
   {
-    image: "/projects/cyber-shoe-shop.png",
+    image: "/projects/kinto-usa.png",
+    images: [
+      "/projects/kinto-usa.png",
+      "/projects/kinto-usa/02.png",
+      "/projects/kinto-usa/03.png",
+    ],
     platform: ["Website"],
-    title: "Cyber Shoe Shop",
+    showcase: true,
+    title: "Kinto USA — Minimal Catalog & Theme Discipline",
     description:
-      "Developed a fashion e-commerce website interface focused on shoe sales, practicing API calls to fetch and render data dynamically. Built using vanilla HTML, SASS, and JavaScript.",
-    demo: "https://cyber-shoe-shop-group5-bcs12.vercel.app",
+      "Showcase study of a minimal lifestyle Shopify catalog—whitespace, product grids, and education-friendly PLPs that reward precise theme and typography control.",
+    detailsIntro:
+      "Public showcase storefront (not employment/client attribution). Used to show how I protect a minimal brand system while keeping drinkware/tableware discovery clear and convertible.",
+    detailSections: [
+      {
+        title: "UX patterns highlighted",
+        items: [
+          "Lifestyle hero carousel with restrained navigation chrome.",
+          "Sparse but legible PLPs with swatches, pricing, and sort controls.",
+          "Category framing (drinkware/tableware) that supports tidy taxonomy UX.",
+        ],
+      },
+      {
+        title: "Skills this showcase maps to",
+        items: [
+          "High-fidelity Figma-to-Liquid spacing and type fidelity.",
+          "Reusable product-grid and navigation component patterns.",
+          "Responsive QA where whitespace can break on small screens.",
+        ],
+      },
+      {
+        title: "Relevant delivery experience",
+        items: [
+          "Reflects theme customization craft from my Shopify positions—not ownership of this brand.",
+        ],
+      },
+    ],
+    demo: "https://kinto-usa.com/",
     technologies: [
-      "React.js",
-      "Tailwind CSS",
-      "GraphQL/REST APIs",
-      "JavaScript",
-      "Next.js",
+      "Shopify",
+      "Liquid",
+      "Figma",
+      "Theme Customization",
+      "Responsive Design",
+      "UX/UI Design Principles",
+    ],
+    keySkills: [
+      "Minimal brand UX systems",
+      "Catalog & taxonomy UX",
+      "Figma-to-Liquid implementation",
+      "PDP education layouts",
+      "Visual QA",
     ],
   },
   {
-    image: "/projects/forever.png",
+    image: "/projects/pelacase.png",
+    images: [
+      "/projects/pelacase.png",
+      "/projects/pelacase/02.png",
+      "/projects/pelacase/03.png",
+    ],
     platform: ["Website"],
-    title: "Forever",
+    showcase: true,
+    title: "Pela Case — High-Volume Catalog & Fit Discovery",
     description:
-      "ForeverBuy is a modern, minimalistic e-commerce platform designed to highlight the latest fashion collections with a clean and spacious UI. The project emphasizes product discovery through clear categories, responsive layouts, and visually striking hero sections. Built for performance and seamless user experience, it showcases skills in creating fast-loading, conversion-focused storefronts with elegant design and intuitive navigation for fashion retail",
-    demo: "https://forever-frontend-hazel.vercel.app/",
+      "Showcase study of a dense eco-commerce catalog—device-aware merchandising, promotional badges, and collection UX suited to large SKU counts.",
+    detailsIntro:
+      "Public showcase storefront (not employment/client attribution). Demonstrates guided shopping and collection readability patterns I use when optimizing large Shopify catalogs.",
+    detailSections: [
+      {
+        title: "UX patterns highlighted",
+        items: [
+          "Split heroes for campaigns and new arrivals above the fold.",
+          "Dense product grids with badges, swatches, and device-oriented naming.",
+          "Bestsellers storytelling that balances impact messaging with shoppability.",
+        ],
+      },
+      {
+        title: "Skills this showcase maps to",
+        items: [
+          "Filter / guided shopping UX for device-specific catalogs.",
+          "Promo banner systems and badge patterns that stay readable on mobile.",
+          "CWV-minded approaches for image-heavy PLPs.",
+        ],
+      },
+      {
+        title: "Relevant delivery experience",
+        items: [
+          "Maps to Shopify Plus catalog and CRO work across my employers—not claimed affiliation with this brand.",
+        ],
+      },
+    ],
+    demo: "https://pelacase.com/",
     technologies: [
       "Shopify Plus",
       "Liquid",
-      "JavaScript/Typescript",
-      "Node.js",
-      "SEO Optimization",
+      "Figma",
+      "Collection UX",
+      "CRO",
+      "Core Web Vitals",
+    ],
+    keySkills: [
+      "Guided shopping UX",
+      "High-volume catalog UX",
+      "Promo & badge systems",
+      "Responsive storefront design",
+      "Performance awareness",
+    ],
+  },
+  {
+    image: "/projects/hexclad.png",
+    images: [
+      "/projects/hexclad.png",
+      "/projects/hexclad/02.png",
+      "/projects/hexclad/03.png",
+    ],
+    platform: ["Website"],
+    showcase: true,
+    title: "HexClad — Premium Hero & Set Merchandising",
+    description:
+      "Showcase study of a premium cookware Shopify experience—media-heavy heroes, set storytelling, and dark branded collection templates.",
+    detailsIntro:
+      "Public showcase storefront (not employment/client attribution). Highlights education-led PDP and campaign-landing patterns relevant to high-intent Shopify Plus commerce.",
+    detailSections: [
+      {
+        title: "UX patterns highlighted",
+        items: [
+          "Cinematic heroes with endorsement and clear Shop CTAs.",
+          "Category sub-nav supporting cookware discovery journeys.",
+          "Set/bundle-forward PLPs with dark branded product photography.",
+        ],
+      },
+      {
+        title: "Skills this showcase maps to",
+        items: [
+          "Premium brand UI systems and Figma-to-theme fidelity.",
+          "Bundle/set merchandising and education content hierarchy.",
+          "Performance care on media-heavy commercial templates.",
+        ],
+      },
+      {
+        title: "Relevant delivery experience",
+        items: [
+          "Same problem class as campaign and PDP work in my Shopify Plus roles—not claimed work for this brand.",
+        ],
+      },
+    ],
+    demo: "https://hexclad.com/",
+    technologies: [
+      "Shopify Plus",
+      "Liquid",
+      "Figma",
+      "CRO",
+      "A/B Testing",
+      "Responsive Design",
+    ],
+    keySkills: [
+      "Premium brand UX/UI",
+      "PDP education design",
+      "Bundle & set merchandising",
+      "Campaign landing patterns",
+      "Visual QA",
+    ],
+  },
+  {
+    image: "/projects/brooklinen.png",
+    images: [
+      "/projects/brooklinen.png",
+      "/projects/brooklinen/02.png",
+      "/projects/brooklinen/03.png",
+      "/projects/brooklinen/04.png",
+    ],
+    platform: ["Website"],
+    showcase: true,
+    title: "Brooklinen — Guides, Filters & Sale Conversion UX",
+    description:
+      "Showcase study of a large DTC bedding storefront—guides, filter sidebars, sale badges, and collection storytelling for high-traffic commerce.",
+    detailsIntro:
+      "Public showcase storefront (not employment/client attribution). Used to illustrate guided shopping, promo urgency, and analytics-informed collection UX patterns from my Shopify practice.",
+    detailSections: [
+      {
+        title: "UX patterns highlighted",
+        items: [
+          "Fabric/type guides that reduce bedding purchase uncertainty.",
+          "Filter sidebars with clear product cards, social proof, and offer badges.",
+          "Sale heroes and countdown messaging layered onto evergreen PLPs.",
+        ],
+      },
+      {
+        title: "Skills this showcase maps to",
+        items: [
+          "Collection + guide modules for complex product choices.",
+          "CRO-minded offer messaging without breaking layout systems.",
+          "Responsive QA across dense filter + grid templates.",
+        ],
+      },
+      {
+        title: "Relevant delivery experience",
+        items: [
+          "Reflects Shopify Plus conversion and theme work from my career—not claimed ownership of this brand.",
+        ],
+      },
+    ],
+    demo: "https://brooklinen.com/",
+    technologies: [
+      "Shopify Plus",
+      "Liquid",
+      "Figma",
+      "CRO",
+      "GA4",
+      "Responsive Design",
+    ],
+    keySkills: [
+      "Guided shopping UX",
+      "Sale & campaign templates",
+      "PDP conversion patterns",
+      "Analytics-informed UX",
+      "Responsive design",
     ],
   },
 ];
@@ -306,87 +557,102 @@ export type WorkExperience = {
 
 export const WORK_EXPERIENCES: WorkExperience[] = [
   {
-    duration: "Dec 2025 - Present",
-    position: "Senior Ecommerce Full Stack Developer",
+    duration: "Oct 2025 - Mar 2026",
+    position: "Senior Shopify Developer",
     company: "JustBlinds",
-    location: "Frisco, TX",
+    location: "Houston, TX",
     description: [
-      "Led a comprehensive SEO initiative to optimize metadata, schema markup, image handling, and crawlability. Monitored high-value landing pages using Google Search Console and maintained a perfect SEO score, resulting in significant increases in organic traffic and search visibility. ",
-      "Conducted in-depth performance audits using Lighthouse, WebPageTest, and Chrome DevTools. Resolved render-blocking resources, JavaScript bottlenecks, and inefficient Liquid patterns. Optimized theme architecture and asset delivery, improving LCP, FID, and CLS metrics, reducing page load times and enhancing user experience. ",
+      "Improved Shopify storefront usability across Liquid templates, theme sections, and responsive components on desktop, tablet, and mobile.",
+      "Diagnosed Liquid/JS/third-party performance issues—cutting page load time by ~35% and improving Core Web Vitals; optimized 3,500+ product/marketing images to WebP.",
+      "Created Figma layouts and implemented approved designs into Shopify themes; built React/Next.js internal tools and Shopify Admin API integrations for ops workflows.",
     ],
     techStack: [
-      "Shopify Liquid",
+      "Shopify",
+      "Liquid",
+      "React.js",
+      "Next.js",
       "TypeScript",
-      "SEO",
-      "Performance Optimization",
-      "Node.js",
+      "Figma",
+      "Core Web Vitals",
     ],
   },
   {
-    duration: "Apr 2023 - Oct 2025",
-    position: "Senior Full Stack Developer",
-    company: "Siteminis",
-    location: "ATL, GA",
+    duration: "Apr 2023 - Sep 2025",
+    position: "Senior Front-End Developer",
+    company: "Kahuna Workforce Solutions",
+    location: "Houston, TX",
     description: [
-      "Blended senior engineering execution with strategic business support and investor communications, working closely with executives and founders.",
-      "Collaborated with leadership to align product development with long-term business goals and fundraising objectives. ",
+      "Built React and Next.js workforce apps with reusable dashboard, reporting, and operational UI patterns for internal teams and customers.",
+      "Shipped responsive TypeScript + Tailwind layouts; integrated REST APIs and improved rendering/data-fetch performance.",
+      "Partnered with designers in Figma and delivered iteratively through Agile sprints, reviews, and releases.",
     ],
     techStack: [
-      "React",
+      "React.js",
+      "Next.js",
       "TypeScript",
+      "Tailwind CSS",
       "REST APIs",
-      "Event-Driven Architecture",
-      "Machine Learning",
+      "Figma",
     ],
   },
   {
-    duration: "Dec 2022 - Mar 2023",
-    position: "Senior E-Commerce Developer",
-    company: "Sweat Pants Agency",
-    location: "Owings Mills, MD",
+    duration: "Jun 2022 - Mar 2023",
+    position: "Senior Shopify Plus Developer",
+    company: "Shoebacca",
+    location: "Irving, TX",
     description: [
-      "Spearheaded technical discovery phases for global e-commerce brands, conducting in-depth platform assessments, identifying bottlenecks, and recommending scalable architectures for seamless digital experiences.",
-      "Designed and implemented high-traffic, content-rich storefronts using headless commerce strategies powered by Shopify Plus and Next.js, optimizing both performance and user experience. ",
+      "Customized Shopify Plus storefronts with Liquid, theme sections, and reusable components for product discovery across devices.",
+      "Translated Figma designs into PDP, collection, and landing pages; improved checkout/conversion through CRO and A/B testing.",
+      "Integrated Shopify APIs, webhooks, and third-party apps; optimized Core Web Vitals and supported Shopify Markets localization.",
     ],
     techStack: [
       "Shopify Plus",
+      "Liquid",
+      "React.js",
       "Next.js",
-      "React",
-      "TypeScript",
-      "Shopify Hydrogen",
+      "GraphQL",
+      "GA4",
+      "Hotjar",
     ],
   },
   {
-    duration: "Oct 2019 - Nov 2022",
-    position: "Lead Shopify & WooCommerce Developer",
+    duration: "Oct 2019 - May 2022",
+    position: "Lead Shopify Developer",
     company: "Volusion",
     location: "Austin, TX",
     description: [
-      "Spearheaded the design, development, and optimization of Shopify and WooCommerce storefronts, ensuring high performance, scalability, and secure operations under heavy user traffic.",
-      "•	Architected end-to-end e-commerce solutions, including theme customization, app integrations, and personalized checkout processes, enhancing customer journeys and conversion rates.",
+      "Led Shopify storefront projects by customizing Liquid templates, reusable sections, and frontend components at merchant scale.",
+      "Built app customizations and ERP/CRM/payment integrations (Stripe, PayPal, Square, AfterPay).",
+      "Applied CRO and A/B testing, improved performance, and connected Shopify POS with inventory and loyalty systems.",
     ],
-    techStack: ["Shopify", "Python", "WooCommerce", "GraphQL", "JavaScript"],
+    techStack: [
+      "Shopify",
+      "Shopify Plus",
+      "Liquid",
+      "React.js",
+      "GraphQL",
+      "Stripe",
+      "WooCommerce",
+    ],
   },
   {
     duration: "Dec 2017 - Oct 2019",
-    position: "Full Stack Developer",
-    company: "Nucleus Commerce",
-    location: "Springfield, MO",
+    position: "Shopify Full Stack Developer",
+    company: "IWD Agency",
+    location: "Austin, TX",
     description: [
-      "Developed custom full-stack e-commerce solutions on Shopify, WordPress, and EC-Cube, tailoring features to client requirements and regional market demands.",
-      "Adapted storefronts to regional compliance needs, including local tax rules, language localization, and consumer behavior, ensuring consistent customer experiences.",
+      "Developed Shopify, WooCommerce, and EC-Cube storefronts from Figma concepts into responsive production themes.",
+      "Built React/Next.js components and regional payment integrations (Konbini, PayPay, Paidy); supported Shopify POS.",
+      "Maintained GitLab CI/CD and AWS deployment workflows with post-launch performance and UX improvements.",
     ],
-    techStack: ["Shopify", "WordPress", "Next.js", "PHP", "AWS"],
+    techStack: [
+      "Shopify",
+      "Liquid",
+      "React.js",
+      "Next.js",
+      "WooCommerce",
+      "AWS",
+      "GitLab CI/CD",
+    ],
   },
-  // {
-  //   duration: 'Nov 2014 - Apr 2017',
-  //   position: 'Frontend Developer',
-  //   company: 'Velocity Technology Solutions',
-  //   location: 'Charlotte, NC',
-  //   description: [
-  //     '•	Spearheaded the design and development of scalable, responsive e-commerce frontends with React.js, optimized for desktop, tablet, and mobile devices.',
-  //     '•	Integrated frontend solutions with multiple CMS platforms and backend systems, enabling dynamic content delivery and seamless management.'
-  //   ],
-  //   techStack: ['TypeScript', 'Python', 'Data Analysis']
-  // }
 ];

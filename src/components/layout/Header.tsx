@@ -1,17 +1,16 @@
 "use client";
 
 import BarsStaggeredIcon from "@/components/icon/bars-staggered-icon";
-import FileArrowDownIcon from "@/components/icon/file-arrow-down-icon";
 import { WordRotate } from "@/components/magicui/word-rotate";
 import { ModeToggle } from "@/components/theme/mode-toggle";
 import { Button } from "@/components/ui/button";
 import { useActiveSection } from "@/hooks/useActiveSection";
 import { NavLink } from "@/components/custom/nav-link";
+import { PROFILE_NAME, PROFILE_TITLE } from "@/lib/constants";
 import React, { useState } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "motion/react";
 import XmarkIcon from "@/components/icon/xmark-icon";
-import { CV_URL } from "@/lib/constants";
 
 type NavItem = {
   href: string;
@@ -49,12 +48,11 @@ const Header = () => {
                 <WordRotate
                   duration={10000}
                   className="text-3xl xl:text-4xl font-lobster text-primary pr-1"
-                  words={["Kaito Hoshizora"]}
+                  words={[PROFILE_NAME]}
                 />
               </Link>
             </div>
 
-            {/* Desktop Navigation */}
             <div className="flex items-center gap-10">
               <nav className="hidden xl:flex items-center me-3 gap-10 xl:gap-16">
                 {NAV_ITEMS.map((item) => (
@@ -68,22 +66,9 @@ const Header = () => {
                 ))}
               </nav>
 
-              <div className="hidden xl:flex items-center gap-2">
-                <Link href={CV_URL} target="_blank">
-                  <Button
-                    variant="default"
-                    className="font-medium text-xl py-7"
-                  >
-                    <FileArrowDownIcon /> Download CV
-                  </Button>
-                </Link>
-              </div>
-
               <div className="flex items-center gap-4">
-                {/* Theme Toggle */}
                 <ModeToggle />
 
-                {/*  Navigation Toggle */}
                 <Button
                   variant="ghost"
                   size="icon"
@@ -98,7 +83,6 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Menu Overlay */}
       <AnimatePresence>
         {isMenuOpen && (
           <motion.div
@@ -122,9 +106,9 @@ const Header = () => {
               </div>
 
               <div className="flex flex-col gap-2 mb-8">
-                <h1 className="text-2xl font-lobster">Kaito Hoshizora</h1>
+                <h1 className="text-2xl font-lobster">{PROFILE_NAME}</h1>
                 <p className="text-lg font-semibold text-primary">
-                  Ecommerce Full-stack Engineer
+                  {PROFILE_TITLE}
                 </p>
               </div>
 
@@ -139,17 +123,6 @@ const Header = () => {
                   </NavLink>
                 ))}
               </nav>
-
-              <div className="flex flex-col items-start mt-8 text-primary">
-                <NavLink
-                  key={CV_URL}
-                  href={CV_URL}
-                  onClick={() => setIsMenuOpen(false)}
-                  target="_blank"
-                >
-                  DOWNLOAD CV
-                </NavLink>
-              </div>
             </div>
           </motion.div>
         )}
