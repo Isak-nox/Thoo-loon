@@ -22,7 +22,7 @@ const EducationSection = () => {
                 className="text-3xl font-bold leading-tight sm:text-4xl md:text-5xl"
                 colors={["#FFA001", "#FE8FB5", "#FC4100"]}
               >
-                Bachelor's Degree in Computer Science
+                Bachelor&apos;s Degree in Computer Science
               </AuroraText>
               <p className="text-base text-foreground/90 sm:text-xl">
                 Vista College, Killeen, TX
