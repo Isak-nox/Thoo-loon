@@ -4,10 +4,10 @@ import { Spotlight } from "@/components/ui/spotlight";
 import React from "react";
 
 const HIGHLIGHTS = [
-  "Shopify Plus storefronts, themes, and headless commerce delivery",
-  "Liquid, Storefront/Admin APIs, React, and Next.js implementations",
-  "Figma-to-code workflows with strong visual QA and design fidelity",
-  "CRO, A/B testing, and performance optimization for conversions",
+  "Shopify and Shopify Plus storefronts with Liquid and Online Store 2.0 themes",
+  "Custom sections, APIs, webhooks, and third-party app integrations",
+  "Core Web Vitals, asset optimization, and conversion-focused UX",
+  "End-to-end delivery from theme work to production troubleshooting",
 ];
 
 const AboutSection = () => {
@@ -37,13 +37,12 @@ const AboutSection = () => {
             </h1>
 
             <p className="mx-auto max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg lg:mx-0 xl:text-xl xl:leading-8">
-              with 8+ years of experience building, customizing, and optimizing
-              Shopify storefronts, landing pages, and digital commerce
-              experiences across Shopify, Shopify Plus, WooCommerce, and
-              headless commerce. Strong expertise in theme development, Liquid,
-              Storefront/Admin APIs, React, Next.js, Figma-to-code workflows,
-              CRO, and performance optimization that improve usability, customer
-              journeys, and conversions.
+              with 8 years of experience building and optimizing Shopify and
+              Shopify Plus storefronts. I specialize in Liquid theme
+              development, Online Store 2.0 customization, and ecommerce
+              frontend engineering—delivering custom themes, API integrations,
+              checkout enhancements, and performance improvements that
+              strengthen customer experience and conversion opportunities.
             </p>
           </div>
 

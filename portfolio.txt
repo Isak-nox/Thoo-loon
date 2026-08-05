@@ -1,6 +1,0 @@
-https://cyber-shoe-shop-group5-bcs12.vercel.app/   https://thucvan-portfolio.vercel.app/#projects
-https://elegance-jewellery.vercel.app/
-https://over-clocked.vercel.app/     https://patelmann.vercel.app/
-https://apps.shopify.com/voice-ai-agent     https://zalt.me/projects/ai-sales-agent-for-shopify
-https://martian-horse-front-end.onrender.com/    https://kelvin-site.vercel.app/projects/martian-horse
-https://forever-frontend-hazel.vercel.app/	https://dhlananh-dev-portfolio.vercel.app/en/projects

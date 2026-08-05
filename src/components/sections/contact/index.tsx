@@ -4,6 +4,7 @@ import EnvelopeOpenTextIcon from "@/components/icon/envelope-open-text-icon";
 import {
   CONTACT_BIO,
   CONTACT_EMAIL,
+  CONTACT_LOCATION,
   CONTACT_PHONE,
   PROFILE_NAME,
   PROFILE_TITLE,
@@ -89,6 +90,12 @@ const ContactSection = () => {
               </p>
 
               <div className="mt-8 space-y-3 text-base sm:text-lg">
+                <p className="text-zinc-300">
+                  <span className="uppercase tracking-wide text-zinc-500">
+                    Location:{" "}
+                  </span>
+                  <span className="text-zinc-200">{CONTACT_LOCATION}</span>
+                </p>
                 <p className="text-zinc-300">
                   <span className="uppercase tracking-wide text-zinc-500">
                     Phone:{" "}
