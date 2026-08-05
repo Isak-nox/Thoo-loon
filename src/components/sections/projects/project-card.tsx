@@ -14,7 +14,7 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   const [isDetailOpen, setIsDetailOpen] = useState(false);
-  const cardTitle = project.title.split("—")[0]?.trim() || project.title;
+  const cardTitle = project.title.split(" - ")[0]?.trim() || project.title;
 
   return (
     <>
@@ -35,7 +35,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
             <span className="text-sm text-zinc-400">
               {project.role}
             </span>
-            <span className="text-zinc-600">·</span>
+            <span className="text-zinc-600">|</span>
             <span className="text-sm text-zinc-400">
               {project.platform.join(" • ")}
             </span>

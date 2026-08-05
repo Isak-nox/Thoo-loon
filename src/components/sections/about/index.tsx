@@ -6,7 +6,7 @@ import React from "react";
 const HIGHLIGHTS = [
   "Shopify and Shopify Plus storefronts with Liquid and Online Store 2.0 themes",
   "Custom sections, APIs, webhooks, and third-party app integrations",
-  "Core Web Vitals, asset optimization, and conversion-focused UX",
+  "Core Web Vitals, asset optimization, and UX that supports conversion",
   "End-to-end delivery from theme work to production troubleshooting",
 ];
 
@@ -40,7 +40,7 @@ const AboutSection = () => {
               with 8 years of experience building and optimizing Shopify and
               Shopify Plus storefronts. I specialize in Liquid theme
               development, Online Store 2.0 customization, and ecommerce
-              frontend engineering—delivering custom themes, API integrations,
+              frontend engineering. I build custom themes, API integrations,
               checkout enhancements, and performance improvements that
               strengthen customer experience and conversion opportunities.
             </p>

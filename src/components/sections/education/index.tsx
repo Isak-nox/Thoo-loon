@@ -16,13 +16,13 @@ const EducationSection = () => {
           <div className="grid w-full max-w-5xl gap-10 lg:grid-cols-2 lg:gap-14">
             <div className="flex flex-col justify-center gap-3 text-center sm:gap-4 lg:text-left">
               <p className="text-sm text-muted-foreground sm:text-base">
-                Aug 2013 – May 2017
+                Aug 2013 - May 2017
               </p>
               <AuroraText
                 className="text-3xl font-bold leading-tight sm:text-4xl md:text-5xl"
                 colors={["#FFA001", "#FE8FB5", "#FC4100"]}
               >
-                Bachelor’s Degree in Computer Science
+                Bachelor's Degree in Computer Science
               </AuroraText>
               <p className="text-base text-foreground/90 sm:text-xl">
                 Vista College, Killeen, TX

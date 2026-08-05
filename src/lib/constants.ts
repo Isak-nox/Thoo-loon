@@ -167,18 +167,18 @@ export const PROJECTS: Project[] = [
       "/projects/allbirds/04.png",
     ],
     platform: ["Website"],
-    role: "Senior Shopify Developer — Theme Architecture & Conversion UX",
-    title: "Allbirds — Sustainable Footwear Storefront",
+    role: "Senior Shopify Developer - Theme Architecture & Conversion UX",
+    title: "Allbirds - Sustainable Footwear Storefront",
     description:
-      "Showcase of Shopify Plus storefront patterns for a sustainability-led footwear brand—hero merchandising, gender collection templates, filters, and conversion-focused product discovery.",
+      "Shopify Plus storefront work for a sustainability-led footwear brand, covering hero merchandising, gender collection templates, filters, and product discovery focused on conversion.",
     detailsIntro:
-      "Case study of Senior Shopify Developer patterns applied to a high-traffic footwear storefront: Online Store 2.0 sections, Liquid collection templates, responsive product grids, and Core Web Vitals–minded media delivery.",
+      "Senior Shopify Developer work on a high-traffic footwear storefront using Online Store 2.0 sections, Liquid collection templates, responsive product grids, and Core Web Vitals-minded media delivery.",
     detailSections: [
       {
         title: "Role & scope",
         items: [
-          "Delivered theme architecture for homepage heroes, men’s/women’s collections, and shop-all browsing experiences.",
-          "Partnered with design and marketing on campaign messaging, badges, and conversion-oriented CTAs.",
+          "Delivered theme architecture for homepage heroes, men's/women's collections, and shop-all browsing experiences.",
+          "Partnered with design and marketing on campaign messaging, badges, and CTAs built for conversion.",
           "Prioritized mobile usability, clear navigation, and performance on image-heavy catalog pages.",
         ],
       },
@@ -188,13 +188,13 @@ export const PROJECTS: Project[] = [
           "Built and refined Liquid sections, blocks, and JSON templates for heroes, collection banners, and product cards.",
           "Implemented collection UX with filters, sort controls, gender toggles, and sale-price presentation.",
           "Optimized responsive imagery and frontend assets to protect Core Web Vitals on catalog and landing pages.",
-          "Supported CRO across discovery → PDP → ATC journeys for high-intent footwear shoppers.",
+          "Supported CRO across discovery to PDP to ATC journeys for footwear shoppers.",
         ],
       },
       {
         title: "Key skills",
         items: [
-          "Shopify Plus · Online Store 2.0 · Liquid · JavaScript · Collection UX · CRO · Core Web Vitals",
+          "Shopify Plus, Online Store 2.0, Liquid, JavaScript, Collection UX, CRO, Core Web Vitals",
         ],
       },
     ],
@@ -227,17 +227,17 @@ export const PROJECTS: Project[] = [
       "/projects/ugmonk/04.png",
     ],
     platform: ["Website"],
-    role: "Senior Shopify Developer — Brand-faithful Theme Customization",
-    title: "Ugmonk — Minimal Analog Commerce",
+    role: "Senior Shopify Developer - Brand-aligned Theme Customization",
+    title: "Ugmonk - Minimal Analog Commerce",
     description:
-      "Showcase of minimal Shopify theme customization for a design-led stationery brand—hero storytelling, category navigation, and clean collection templates for pens, analog systems, and objects.",
+      "Minimal Shopify theme customization for a design-led stationery brand, including hero storytelling, category navigation, and clean collection templates for pens, analog systems, and objects.",
     detailsIntro:
-      "Case study of brand-faithful Shopify theme work: Liquid sections that protect a minimal visual system while improving category discovery, product grids, and campaign-ready storefront modules.",
+      "Shopify theme work that keeps a minimal visual system intact while improving category discovery, product grids, and campaign-ready storefront modules with Liquid sections.",
     detailSections: [
       {
         title: "Role & scope",
         items: [
-          "Owned brand-faithful theme customization for a minimal, design-forward DTC storefront.",
+          "Owned theme customization that stays true to a minimal, design-forward DTC brand.",
           "Translated high-fidelity design direction into Liquid sections with strict typography and spacing fidelity.",
           "Structured category journeys for starter kits, cards, accessories, and journals.",
         ],
@@ -254,7 +254,7 @@ export const PROJECTS: Project[] = [
       {
         title: "Key skills",
         items: [
-          "Shopify · Liquid · Theme Customization · CSS/SCSS · Figma-to-code · Responsive Design · UX",
+          "Shopify, Liquid, Theme Customization, CSS/SCSS, Figma-to-code, Responsive Design, UX",
         ],
       },
     ],
@@ -286,12 +286,12 @@ export const PROJECTS: Project[] = [
       "/projects/staycourant/04.png",
     ],
     platform: ["Website"],
-    role: "Senior Shopify Developer — Merchandising Systems & Product Storytelling",
-    title: "Courant — Premium Wireless Charging",
+    role: "Senior Shopify Developer - Merchandising Systems & Product Storytelling",
+    title: "Courant - Premium Wireless Charging",
     description:
-      "Showcase of premium Shopify merchandising for lifestyle tech—collection grids mixing product and lifestyle tiles, MagSafe category templates, sale badges, and brand storytelling sections.",
+      "Premium Shopify merchandising for lifestyle tech, with collection grids that mix product and lifestyle tiles, MagSafe category templates, sale badges, and brand storytelling sections.",
     detailsIntro:
-      "Case study of Senior Shopify Developer delivery for a design-led hardware brand: Liquid collection systems, promotional pricing presentation, and conversion-focused product storytelling.",
+      "Senior Shopify Developer work for a design-led hardware brand: Liquid collection systems, promotional pricing presentation, and product storytelling built for conversion.",
     detailSections: [
       {
         title: "Role & scope",
@@ -313,7 +313,7 @@ export const PROJECTS: Project[] = [
       {
         title: "Key skills",
         items: [
-          "Shopify · Liquid · Merchandising UX · CRO · Responsive Design · Theme Architecture",
+          "Shopify, Liquid, Merchandising UX, CRO, Responsive Design, Theme Architecture",
         ],
       },
     ],
@@ -345,12 +345,12 @@ export const PROJECTS: Project[] = [
       "/projects/stevemadden/04.png",
     ],
     platform: ["Website"],
-    role: "Senior Shopify Plus Developer — High-volume Catalog & Campaign UX",
-    title: "Steve Madden — Fashion Footwear & Accessories",
+    role: "Senior Shopify Plus Developer - High-volume Catalog & Campaign UX",
+    title: "Steve Madden - Fashion Footwear & Accessories",
     description:
-      "Showcase of Shopify Plus catalog UX for a large fashion brand—campaign heroes, high-SKU product grids, quick-add patterns, sale badges, and multi-category merchandising.",
+      "Shopify Plus catalog UX for a large fashion brand, including campaign heroes, high-SKU product grids, quick-add patterns, sale badges, and multi-category merchandising.",
     detailsIntro:
-      "Case study of Senior Shopify Plus Developer patterns for a high-volume fashion storefront: campaign landing systems, dense PLPs, and conversion features across shoes, accessories, and seasonal collections.",
+      "Senior Shopify Plus Developer work on a high-volume fashion storefront: campaign landing systems, dense PLPs, and conversion features across shoes, accessories, and seasonal collections.",
     detailSections: [
       {
         title: "Role & scope",
@@ -363,7 +363,7 @@ export const PROJECTS: Project[] = [
       {
         title: "Technical work",
         items: [
-          "Built homepage campaign heroes and multi-category navigation for women’s, men’s, and accessories journeys.",
+          "Built homepage campaign heroes and multi-category navigation for women's, men's, and accessories journeys.",
           "Refined collection templates with filters, sort, color counts, sale pricing, and quick-add actions.",
           "Supported third-party commerce signals (e.g., loyalty/Prime messaging) within theme components.",
           "Audited Liquid/JS/image performance on dense PLPs to protect shopping speed under campaign traffic.",
@@ -372,7 +372,7 @@ export const PROJECTS: Project[] = [
       {
         title: "Key skills",
         items: [
-          "Shopify Plus · Liquid · Collection UX · JavaScript · CRO · Performance · Campaign Templates",
+          "Shopify Plus, Liquid, Collection UX, JavaScript, CRO, Performance, Campaign Templates",
         ],
       },
     ],
@@ -404,12 +404,12 @@ export const PROJECTS: Project[] = [
       "/projects/beardbrand/04.png",
     ],
     platform: ["Website"],
-    role: "Senior Shopify Developer — DTC Theme Systems & Category UX",
-    title: "Beardbrand — Grooming & Fragrance DTC",
+    role: "Senior Shopify Developer - DTC Theme Systems & Category UX",
+    title: "Beardbrand - Grooming & Fragrance DTC",
     description:
-      "Showcase of DTC Shopify theme systems for a grooming brand—bold homepage storytelling, category collection templates for hair/body/beard, sold-out states, and promo announcement workflows.",
+      "DTC Shopify theme systems for a grooming brand, including bold homepage storytelling, category templates for hair, body, and beard, sold-out states, and promo announcement workflows.",
     detailsIntro:
-      "Case study of Senior Shopify Developer work for a DTC grooming storefront: custom Liquid layouts, category merchandising, inventory-aware product cards, and campaign announcement patterns.",
+      "Senior Shopify Developer work for a DTC grooming storefront: custom Liquid layouts, category merchandising, inventory-aware product cards, and campaign announcement flows.",
     detailSections: [
       {
         title: "Role & scope",
@@ -431,7 +431,7 @@ export const PROJECTS: Project[] = [
       {
         title: "Key skills",
         items: [
-          "Shopify · Liquid · DTC Theme Systems · Collection UX · JavaScript · CRO · Responsive Design",
+          "Shopify, Liquid, DTC Theme Systems, Collection UX, JavaScript, CRO, Responsive Design",
         ],
       },
     ],
@@ -463,12 +463,12 @@ export const PROJECTS: Project[] = [
       "/projects/mejuri/04.png",
     ],
     platform: ["Website"],
-    role: "Senior Shopify Plus Developer — Luxury PDP & Guided Shopping",
-    title: "Mejuri — Fine Jewelry Ecommerce",
+    role: "Senior Shopify Plus Developer - Luxury PDP & Guided Shopping",
+    title: "Mejuri - Fine Jewelry Ecommerce",
     description:
-      "Showcase of luxury Shopify Plus storefront UX—editorial heroes, jewelry category templates with sub-nav, advanced filters, quick-add grids, and gift/collection merchandising.",
+      "Luxury Shopify Plus storefront UX with editorial heroes, jewelry category templates with sub-nav, advanced filters, quick-add grids, and gift and collection merchandising.",
     detailsIntro:
-      "Case study of Senior Shopify Plus Developer patterns for a fine-jewelry brand: guided category shopping, high-fidelity collection UX, and conversion features that protect a premium brand experience.",
+      "Senior Shopify Plus Developer work for a fine jewelry brand: guided category shopping, detailed collection UX, and conversion features that keep a premium brand experience intact.",
     detailSections: [
       {
         title: "Role & scope",
@@ -490,7 +490,7 @@ export const PROJECTS: Project[] = [
       {
         title: "Key skills",
         items: [
-          "Shopify Plus · Liquid · Luxury UX · Collection Filters · JavaScript · CRO · Core Web Vitals",
+          "Shopify Plus, Liquid, Luxury UX, Collection Filters, JavaScript, CRO, Core Web Vitals",
         ],
       },
     ],
@@ -577,8 +577,8 @@ export type WorkExperience = {
 
 export const WORK_EXPERIENCES: WorkExperience[] = [
   {
-    duration: "Oct 2025 – Mar 2026",
-    position: "Senior Shopify Developer — Shopify Plus & Storefront Performance Engineering",
+    duration: "Oct 2025 - Mar 2026",
+    position: "Senior Shopify Developer - Shopify Plus & Storefront Performance Engineering",
     company: "JustBlinds",
     location: "Houston, TX",
     description: [
@@ -598,8 +598,8 @@ export const WORK_EXPERIENCES: WorkExperience[] = [
     ],
   },
   {
-    duration: "Apr 2023 – Sep 2025",
-    position: "Shopify Developer — Storefront Integrations & Commerce Applications",
+    duration: "Apr 2023 - Sep 2025",
+    position: "Shopify Developer - Storefront Integrations & Commerce Applications",
     company: "Kahuna Workforce Solutions",
     location: "Houston, TX",
     description: [
@@ -619,8 +619,8 @@ export const WORK_EXPERIENCES: WorkExperience[] = [
     ],
   },
   {
-    duration: "Jun 2022 – Mar 2023",
-    position: "Senior Shopify Developer — Headless Commerce & Storefront Engineering",
+    duration: "Jun 2022 - Mar 2023",
+    position: "Senior Shopify Developer - Headless Commerce & Storefront Engineering",
     company: "Shoebacca",
     location: "Irving, TX",
     description: [
@@ -640,8 +640,8 @@ export const WORK_EXPERIENCES: WorkExperience[] = [
     ],
   },
   {
-    duration: "Oct 2019 – May 2022",
-    position: "Senior Shopify Developer — Commerce Integrations & Checkout Customization",
+    duration: "Oct 2019 - May 2022",
+    position: "Senior Shopify Developer - Commerce Integrations & Checkout Customization",
     company: "Volusion",
     location: "Austin, TX",
     description: [
@@ -661,8 +661,8 @@ export const WORK_EXPERIENCES: WorkExperience[] = [
     ],
   },
   {
-    duration: "Dec 2017 – Oct 2019",
-    position: "Shopify Developer — Theme Development & Storefront Customization",
+    duration: "Dec 2017 - Oct 2019",
+    position: "Shopify Developer - Theme Development & Storefront Customization",
     company: "IWD Agency",
     location: "Austin, TX",
     description: [
