@@ -4,10 +4,10 @@ import { Spotlight } from "@/components/ui/spotlight";
 import React from "react";
 
 const HIGHLIGHTS = [
-  "Shopify and Shopify Plus storefronts with Liquid and Online Store 2.0 themes",
-  "Custom sections, APIs, webhooks, and third-party app integrations",
-  "Core Web Vitals, asset optimization, and UX that supports conversion",
-  "End-to-end delivery from theme work to production troubleshooting",
+  "Shopify Plus storefronts with Liquid, Online Store 2.0, and Hydrogen",
+  "Custom Shopify apps, Admin/Storefront APIs, GraphQL, and webhooks",
+  "Core Web Vitals, WCAG 2.2 accessibility, and technical SEO (JSON-LD)",
+  "Theme leadership, code review, mentoring, and reliable production releases",
 ];
 
 const AboutSection = () => {
@@ -20,7 +20,6 @@ const AboutSection = () => {
 
       <div id="about-introduction" className="container relative z-10">
         <div className="grid items-center gap-10 lg:grid-cols-12 lg:gap-14 xl:gap-16">
-          {/* Left: intro */}
           <div className="flex flex-col text-center lg:col-span-6 lg:text-left">
             <div className="mb-5 flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-2xl font-lobster sm:mb-6 sm:text-3xl lg:justify-start xl:text-4xl">
               <h3 className="text-foreground">Hello, I&apos;m</h3>
@@ -37,16 +36,15 @@ const AboutSection = () => {
             </h1>
 
             <p className="mx-auto max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg lg:mx-0 xl:text-xl xl:leading-8">
-              with 8 years of experience building and optimizing Shopify and
-              Shopify Plus storefronts. I specialize in Liquid theme
-              development, Online Store 2.0 customization, and ecommerce
-              frontend engineering. I build custom themes, API integrations,
-              checkout enhancements, and performance improvements that
-              strengthen customer experience and conversion opportunities.
+              with 8 years of experience designing, customizing, and maintaining
+              Shopify Plus storefronts. I specialize in Shopify Liquid, Online
+              Store 2.0, custom theme development, storefront optimization, and
+              Shopify app development using Admin API, GraphQL, Shopify CLI,
+              webhooks, Node.js, and React to improve customer experience and
+              engineering efficiency.
             </p>
           </div>
 
-          {/* Right: highlights fill empty space */}
           <div className="lg:col-span-6">
             <div className="rounded-2xl border border-border/60 bg-card/40 p-6 sm:p-8">
               <p className="mb-5 text-xs font-medium uppercase tracking-[0.2em] text-muted-foreground">

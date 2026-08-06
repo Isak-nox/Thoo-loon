@@ -92,22 +92,25 @@ const ProjectDetailModal = ({
 
         <div className="overflow-y-auto">
           <div className="bg-zinc-900 px-4 pb-4 pt-14 sm:px-6">
-            <div className="relative aspect-[16/10] overflow-hidden rounded-xl bg-black sm:aspect-video">
-              <Image
-                src={gallery[index]}
-                alt={`${project.title} screenshot ${index + 1}`}
-                fill
-                sizes="(max-width: 896px) 100vw, 896px"
-                className="object-cover object-top"
-                priority
-              />
+            <div className="relative">
+              <div className="max-h-[70vh] overflow-y-auto rounded-xl bg-black">
+                <Image
+                  src={gallery[index]}
+                  alt={`${project.title} screenshot ${index + 1}`}
+                  width={1440}
+                  height={4000}
+                  sizes="(max-width: 896px) 100vw, 896px"
+                  className="h-auto w-full"
+                  priority
+                />
+              </div>
 
               {gallery.length > 1 && (
                 <>
                   <Button
                     type="button"
                     size="icon"
-                    className="absolute left-3 top-1/2 size-11 -translate-y-1/2 rounded-full bg-black/70 text-white hover:bg-black/90"
+                    className="absolute left-3 top-1/2 z-10 size-11 -translate-y-1/2 rounded-full bg-black/70 text-white hover:bg-black/90"
                     onClick={prev}
                     aria-label="Previous image"
                   >
@@ -116,7 +119,7 @@ const ProjectDetailModal = ({
                   <Button
                     type="button"
                     size="icon"
-                    className="absolute right-3 top-1/2 size-11 -translate-y-1/2 rounded-full bg-black/70 text-white hover:bg-black/90"
+                    className="absolute right-3 top-1/2 z-10 size-11 -translate-y-1/2 rounded-full bg-black/70 text-white hover:bg-black/90"
                     onClick={next}
                     aria-label="Next image"
                   >
@@ -125,7 +128,7 @@ const ProjectDetailModal = ({
                 </>
               )}
 
-              <div className="absolute bottom-3 left-1/2 -translate-x-1/2 rounded-full bg-black/65 px-3 py-1 text-xs text-white">
+              <div className="pointer-events-none absolute bottom-3 left-1/2 z-10 -translate-x-1/2 rounded-full bg-black/65 px-3 py-1 text-xs text-white">
                 {index + 1} / {gallery.length}
               </div>
             </div>
