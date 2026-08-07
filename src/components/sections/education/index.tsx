@@ -30,7 +30,7 @@ const EducationSection = () => {
             </div>
 
             <div className="rounded-2xl border border-border/60 bg-card/40 p-6 sm:p-8">
-              <p className="mb-5 text-xs font-medium uppercase tracking-[0.2em] text-muted-foreground">
+              <p className="mb-5 text-xs font-medium tracking-[0.2em] text-muted-foreground">
                 Certifications &amp; Licenses
               </p>
               <ul className="grid gap-3 sm:grid-cols-1">

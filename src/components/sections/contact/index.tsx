@@ -31,7 +31,7 @@ const initialForm: FormState = {
 };
 
 const fieldLabelClass =
-  "mb-2.5 block text-xs font-medium uppercase tracking-[0.18em] text-zinc-400 sm:text-sm";
+  "mb-2.5 block text-xs font-medium tracking-[0.18em] text-zinc-400 sm:text-sm";
 
 const inputClassName =
   "w-full rounded-md border border-zinc-800 bg-zinc-950 px-4 py-4 text-base text-zinc-100 outline-none transition-colors placeholder:text-zinc-600 focus:border-zinc-500 sm:text-lg";
@@ -91,13 +91,13 @@ const ContactSection = () => {
 
               <div className="mt-8 space-y-3 text-base sm:text-lg">
                 <p className="text-zinc-300">
-                  <span className="uppercase tracking-wide text-zinc-500">
+                  <span className="tracking-wide text-zinc-500">
                     Location:{" "}
                   </span>
                   <span className="text-zinc-200">{CONTACT_LOCATION}</span>
                 </p>
                 <p className="text-zinc-300">
-                  <span className="uppercase tracking-wide text-zinc-500">
+                  <span className="tracking-wide text-zinc-500">
                     Phone:{" "}
                   </span>
                   <Link
@@ -108,7 +108,7 @@ const ContactSection = () => {
                   </Link>
                 </p>
                 <p className="break-all text-zinc-300">
-                  <span className="uppercase tracking-wide text-zinc-500">
+                  <span className="tracking-wide text-zinc-500">
                     Email:{" "}
                   </span>
                   <Link
@@ -121,7 +121,7 @@ const ContactSection = () => {
               </div>
 
               <div className="mt-auto pt-10">
-                <p className="mb-4 text-xs font-medium uppercase tracking-[0.2em] text-zinc-500 sm:text-sm">
+                <p className="mb-4 text-xs font-medium tracking-[0.2em] text-zinc-500 sm:text-sm">
                   Find Me In
                 </p>
                 <div className="flex flex-wrap gap-3">
@@ -213,7 +213,7 @@ const ContactSection = () => {
 
                 <button
                   type="submit"
-                  className="mt-2 w-full rounded-md border border-zinc-700 bg-zinc-800 px-6 py-5 text-base font-medium uppercase tracking-[0.16em] text-zinc-200 transition-colors hover:bg-zinc-700 hover:text-white"
+                  className="mt-2 w-full rounded-md border border-zinc-700 bg-zinc-800 px-6 py-5 text-base font-medium tracking-[0.16em] text-zinc-200 transition-colors hover:bg-zinc-700 hover:text-white"
                 >
                   Send Message
                 </button>

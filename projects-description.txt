@@ -1,0 +1,106 @@
+These six sites are showcases, not employer projects. Below is detailed Senior Shopify Developer role + technical task scope you can use for each case study—aligned with your resume skills (Liquid, OS 2.0, Shopify Plus, Figma, React/Next, APIs, CRO, CWV).
+
+1. Minaal — Travel commerce storefront
+Role: Senior Shopify Developer — Theme Architecture & Conversion UX
+Platform: Shopify / Shopify Plus · Online Store 2.0 · Liquid
+
+What you did (technical)
+Designed and implemented OS 2.0 sections for homepage heroes, bag collections, and accessory grids using Liquid + section schemas.
+Built reusable components for product cards, color swatches, shipping/trust callouts, and mobile CTAs.
+Translated Figma spacing/typography into theme CSS (or Tailwind/custom CSS) with responsive breakpoints.
+Structured collection templates for Carry-on / Daily / Rolltop-style merchandising and comparison-friendly layouts.
+Optimized PDPs for materials, specs, and convert-oriented information hierarchy.
+Audited Liquid render cost, third-party scripts, and image sizes; applied responsive images / WebP-style delivery for catalog pages.
+Supported CRO on discovery → PDP → ATC paths for high-intent travel shoppers.
+Key tech
+Shopify Plus · Online Store 2.0 · Liquid · JavaScript · Figma · Responsive Design · Core Web Vitals · CRO
+
+2. Brightland — DTC pantry brand
+Role: Senior Shopify Developer — Merchandising Systems & Bundle UX
+Platform: Shopify · Liquid · theme sections
+
+What you did (technical)
+Implemented collection filtering / pill navigation patterns for bestsellers, EVOO, gifts, etc.
+Built or refined product card schemas: badges (NEW, BEST SELLER, SAVE), strikethrough pricing, ratings.
+Developed bundle / gift-set modules so multi-SKU offers read clearly vs single SKUs.
+Supported subscribe vs one-time purchase UX on PDP/cart messaging (theme + app hooks).
+Created campaign/landing sections for seasonal drops without breaking the design system.
+Ran visual QA against brand-forward Figma comps (serif headers, accent CTAs, soft backgrounds).
+Reduced clutter while keeping conversion signals (price, reviews, ATC) clear on mobile.
+Key tech
+Shopify · Liquid · Figma · CRO · Responsive Design · Theme section architecture · (optional) Subscriptions apps
+
+3. Kinto USA — Minimal lifestyle catalog
+Role: Senior Shopify Developer — Brand-faithful Theme Customization
+Platform: Shopify · Liquid · theme settings
+
+What you did (technical)
+Customized theme layout/CSS for a minimal system: whitespace, muted type, restrained chrome.
+Implemented homepage carousel controls and lifestyle hero sections with accessible navigation patterns.
+Built PLP templates (Drinkware / Tableware / All) with sort, clean grids, and variant swatches.
+Mapped collection taxonomy into navigation and filterable category journeys.
+Converted high-fidelity Figma into Liquid sections with pixel-level spacing/font QA.
+Standardized reusable product grid / header / education snippets to keep merchants editable in theme editor.
+Validated responsive behavior where large whitespace fails on tablet/mobile.
+Key tech
+Shopify · Liquid · Theme Customization · Figma · CSS/SCSS · UX/UI principles · SEO content structure
+
+4. Pela Case — High-volume device catalog
+Role: Senior Shopify Plus Developer — Guided Shopping & Catalog Performance
+Platform: Shopify Plus · Liquid · collection UX
+
+What you did (technical)
+Designed device / fit guided shopping flows (filters, device chooser, URL-friendly collection paths).
+Optimized dense PLPs for tens of thousands of SKUs: grid density, badges (BOGO), swatches, naming conventions.
+Implemented promo banner carousels and badge systems that remain readable on mobile.
+Improved filter UX and product metadata presentation for compatibility matching.
+Audited Core Web Vitals on image-heavy templates (lazy-load, srcset, Liquid image filters, script deferral).
+Hardened theme components so marketing can launch campaigns without breaking catalog layouts.
+Applied CRO experiments on collection → PDP conversion for promotional traffic.
+Key tech
+Shopify Plus · Liquid · Collection UX · JavaScript · Figma · Lighthouse / CWV · CRO · GA4
+
+5. HexClad — Premium cookware
+Role: Senior Shopify Plus Developer — Premium PDP & Campaign Storefronts
+Platform: Shopify Plus · Liquid · media-heavy theme work
+
+What you did (technical)
+Built hero sections (video/image, endorsement modules, Shop CTAs) as theme sections.
+Structured multi-level nav (primary + product-category secondary menu) for cookware discovery.
+Implemented set/bundle merchandising modules and education blocks (materials, hybrid features, comparisons).
+Created reusable sale/campaign landing sections aligned to promo calendars.
+Optimized media-heavy pages for CWV (image formats, deferred JS, section-level loading strategy).
+Collaborated on A/B tests for CTA placement, social proof, and bundle messaging.
+Visual QA on dark branded UI across breakpoints.
+Key tech
+Shopify Plus · Liquid · Figma · JavaScript / optional React · CRO · A/B Testing · Lighthouse · GA4
+
+6. Brooklinen — Large DTC bedding
+Role: Senior Shopify Plus Developer — Guided Commerce & Sale Conversion
+Platform: Shopify Plus · Liquid · guides + filters
+
+What you did (technical)
+Implemented guided shopping (fabric type cards, educational modules) to reduce purchase uncertainty.
+Built collection templates with left filters, badges (Cooling, Wirecutter, AD Approved), and offer messaging.
+Delivered sale heroes, countdown-compatible promo banners, and evergreen PLP layouts.
+Refined PDP hierarchy: offers, ratings, swatches, path into cart/checkout.
+Used GA4 / behavior data to prioritize drop-off templates and CRO updates.
+Kept theme changes release-safe for frequent merchandising / campaign launches.
+Performance pass on content-heavy commercial pages.
+Key tech
+Shopify Plus · Liquid · Figma · CRO · GA4 · Hotjar · Responsive Design · Theme Architecture
+
+How to present this safely (important)
+Do	Don’t
+“Case study / showcase of Shopify patterns I deliver”
+“I was employed by Minaal / HexClad…”
+“Role: Senior Shopify Developer (scope of work)”
+Claiming ownership of those brands
+Tie skills to JustBlinds / Shoebacca / Volusion / IWD for real proof
+Inventing metrics for showcase brands
+One-line role you can reuse under every project card:
+
+Senior Shopify Developer — theme, Liquid/OS 2.0, Figma-to-code, merchandising UX, and CRO/performance on Shopify / Shopify Plus storefronts.
+
+If you want this copied into the Detail modal / project descriptions in the site, switch to Agent mode and ask to update the project content.
+

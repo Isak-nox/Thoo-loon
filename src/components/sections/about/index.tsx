@@ -47,7 +47,7 @@ const AboutSection = () => {
 
           <div className="lg:col-span-6">
             <div className="rounded-2xl border border-border/60 bg-card/40 p-6 sm:p-8">
-              <p className="mb-5 text-xs font-medium uppercase tracking-[0.2em] text-muted-foreground">
+              <p className="mb-5 text-xs font-medium tracking-[0.2em] text-muted-foreground">
                 What I focus on
               </p>
               <ul className="space-y-4">
@@ -64,7 +64,7 @@ const AboutSection = () => {
               </ul>
 
               <div className="mt-8 border-t border-border/60 pt-6">
-                <p className="mb-4 text-xs font-medium uppercase tracking-[0.2em] text-muted-foreground">
+                <p className="mb-4 text-xs font-medium tracking-[0.2em] text-muted-foreground">
                   Primary tools
                 </p>
                 <div className="flex flex-wrap items-center justify-center gap-4 sm:justify-start sm:gap-5">
