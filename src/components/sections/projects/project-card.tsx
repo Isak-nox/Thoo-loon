@@ -20,13 +20,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
     <>
       <article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-white/10 bg-[#161616] shadow-sm transition-colors hover:border-primary/40">
         <div className="flex flex-1 flex-col p-5 sm:p-6">
-          <div className="relative mb-5 aspect-[16/10] overflow-hidden rounded-xl bg-zinc-900">
+          <div className="relative mb-5 aspect-[3/4] overflow-hidden rounded-xl bg-zinc-900 sm:aspect-[4/5]">
             <Image
               src={project.image}
               alt={cardTitle}
               fill
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              className="object-cover object-top transition-transform duration-300 group-hover:scale-[1.03]"
+              className="object-cover object-top transition-transform duration-300 group-hover:scale-[1.02]"
             />
           </div>
 
